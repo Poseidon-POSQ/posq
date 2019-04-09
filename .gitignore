@@ -7,7 +7,6 @@ reset-files.bash
 
 *.exe
 src/posq
-src/posq
 src/posq-cli
 src/posq-tx
 src/test/test_posq
@@ -37,8 +36,8 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
-src/config/poseidon-config.h
-src/config/poseidon-config.h.in
+src/config/posq-config.h
+src/config/posq-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -63,7 +62,7 @@ src/qt/test/moc*.cpp
 *.pyc
 *.o
 *.o-*
-.poseidon
+.posq
 *.a
 *.pb.cc
 *.pb.h
