@@ -37,6 +37,7 @@ QT_FORMS_UI = \
   qt/forms/coincontroldialog.ui \
   qt/forms/blockexplorer.ui \
   qt/forms/obfuscationconfig.ui \
+  qt/moc_governancepage.cpp \
   qt/forms/editaddressdialog.ui \
   qt/forms/helpmessagedialog.ui \
   qt/forms/intro.ui \
