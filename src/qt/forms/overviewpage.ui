@@ -438,6 +438,13 @@
                         </widget>
                        </item>
                        <item>
+                        <widget class="QLabel" name="labelPOSQPercent">
+                         <property name="text">
+                          <string notr="true">0 %</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
                         <spacer name="horizontalSpacer_3">
                          <property name="orientation">
                           <enum>Qt::Horizontal</enum>
@@ -702,6 +709,31 @@
                          </property>
                         </widget>
                        </item>
+                       <item row="4" column="2">
+                        <widget class="QLabel" name="labelWatchLocked">
+                         <property name="font">
+                          <font>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="cursor">
+                          <cursorShape>IBeamCursor</cursorShape>
+                         </property>
+                         <property name="toolTip">
+                          <string>Current locked balance in watch-only addresses</string>
+                         </property>
+                         <property name="text">
+                          <string notr="true">0.000 000 00 POSQ</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="textInteractionFlags">
+                          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+                         </property>
+                        </widget>
+                       </item>
                        <item row="5" column="0">
                         <widget class="QLabel" name="labelTotalText">
                          <property name="toolTip">
@@ -821,6 +853,13 @@
                          </property>
                          <property name="text">
                           <string>zPOSQ Balance</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="labelzPOSQPercent">
+                         <property name="text">
+                          <string notr="true">0 %</string>
                          </property>
                         </widget>
                        </item>

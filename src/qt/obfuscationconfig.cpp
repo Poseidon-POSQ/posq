@@ -1,3 +1,10 @@
+// Copyright (c) 2011-2014 The Bitcoin developers
+// Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2018-2019 The POSQ developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #include "obfuscationconfig.h"
 #include "ui_obfuscationconfig.h"
 
@@ -12,7 +19,7 @@
 #include <QPushButton>
 #include <QSettings>
 
-ObfuscationConfig::ObfuscationConfig(QWidget* parent) : QDialog(parent),
+ObfuscationConfig::ObfuscationConfig(QWidget* parent) : QDialog(parent, Qt::WindowSystemMenuHint | Qt::WindowTitleHint | Qt::WindowCloseButtonHint),
                                                         ui(new Ui::ObfuscationConfig),
                                                         model(0)
 {
