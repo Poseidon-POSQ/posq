@@ -28,8 +28,8 @@ POSQ Core integration/staging repository
 <tr><th colspan=4>PoS / MN Phase</th></tr>
 <tr><td>401-50,000</td><td>1 POSQ</td><td rowspan=1>PHASE 1</td><td>34.4 Days</td></tr>
 <tr><td>50,000-100,000</td><td>2 POSQ</td><td rowspan=1>PHASE 2</td><td>34.4 Days</td></tr>
-<tr><td>100,000-150,000</td><td>5 POSQ</td><td rowspan=1>PHASE 3 </td><td>34.4 Days</td></tr>
-<tr><td>150,000-400,000</td><td>2.5 POSQ</td><td rowspan=1>PHASE 4 </td><td>173.6 Days</td></tr>
+<tr><td>100,000-200,000</td><td>5 POSQ</td><td rowspan=1>PHASE 3 </td><td>69.4 Days</td></tr>
+<tr><td>200,000-400,000</td><td>2.5 POSQ</td><td rowspan=1>PHASE 4 </td><td>138.9 Days</td></tr>
 <tr><td>400,000-800,000</td><td>1.25 POSQ</td><td rowspan=1>PHASE 5 </td><td>277.7 Days</td></tr>
 <tr><td>800,000-1,600,000</td><td>3 POSQ</td><td rowspan=1>PHASE 6 </td><td>555.5 Days</td></tr>
 <tr><td>1,600,000-3,200,000</td><td>1 POSQ</td><td rowspan=1>PHASE 7 </td><td>1,1111.1 Days</td></tr>
