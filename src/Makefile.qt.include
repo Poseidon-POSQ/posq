@@ -4,31 +4,39 @@ EXTRA_LIBRARIES += qt/libbitcoinqt.a
 # posq qt core #
 QT_TS = \
   qt/locale/posq_bg.ts \
-  qt/locale/posq_ca.ts \
-  qt/locale/posq_cs.ts \
-  qt/locale/posq_da.ts \
-  qt/locale/posq_de.ts \
-  qt/locale/posq_en.ts \
-  qt/locale/posq_en_US.ts \
-  qt/locale/posq_es.ts \
-  qt/locale/posq_fi.ts \
-  qt/locale/posq_fr_FR.ts \
-  qt/locale/posq_hr.ts \
-  qt/locale/posq_it.ts \
-  qt/locale/posq_ja.ts \
-  qt/locale/posq_ko_KR.ts \
-  qt/locale/posq_nl.ts \
-  qt/locale/posq_pl.ts \
-  qt/locale/posq_pt.ts \
-  qt/locale/posq_pt_BR.ts \
-  qt/locale/posq_ro_RO.ts \
-  qt/locale/posq_ru.ts \
-  qt/locale/posq_sk.ts \
-  qt/locale/posq_sv.ts \
-  qt/locale/posq_tr.ts \
-  qt/locale/posq_uk.ts \
-  qt/locale/posq_zh_CN.ts \
-  qt/locale/posq_zh_TW.ts
+   qt/locale/posq_ca.ts \
+   qt/locale/posq_cs.ts \
+   qt/locale/posq_da.ts \
+   qt/locale/posq_de.ts \
+   qt/locale/posq_en.ts \
+   qt/locale/posq_en_GB.ts \
+   qt/locale/posq_en_US.ts \
+   qt/locale/posq_eo.ts \
+   qt/locale/posq_es.ts \
+   qt/locale/posq_es_ES.ts \
+   qt/locale/posq_fi.ts \
+   qt/locale/posq_fr_FR.ts \
+   qt/locale/posq_hi_IN.ts \
+   qt/locale/posq_hr.ts \
+   qt/locale/posq_hr_HR.ts \
+   qt/locale/posq_it.ts \
+   qt/locale/posq_ja.ts \
+   qt/locale/posq_ko_KR.ts \
+   qt/locale/posq_lt_LT.ts \
+   qt/locale/posq_nl.ts \
+   qt/locale/posq_pl.ts \
+   qt/locale/posq_pt.ts \
+   qt/locale/posq_pt_BR.ts \
+   qt/locale/posq_ro_RO.ts \
+   qt/locale/posq_ru.ts \
+   qt/locale/posq_sk.ts \
+   qt/locale/posq_sv.ts \
+   qt/locale/posq_tr.ts \
+   qt/locale/posq_uk.ts \
+   qt/locale/posq_vi.ts \
+   qt/locale/posq_zh_CN.ts \
+   qt/locale/posq_zh_TW.ts
+
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -421,9 +429,10 @@ translate: qt/posqstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
-	@test -f $(@D)/$(<F) || cp -f $< $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name posq_locale $(@D)/$(<F) | \
+	@cp -f $< $(@D)/temp_$(<F)
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name posq_locale $(@D)/temp_$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
+	@rm $(@D)/temp_$(<F)
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)

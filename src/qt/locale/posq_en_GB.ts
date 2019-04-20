@@ -176,16 +176,16 @@
         <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</translation>
+        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1134,8 +1134,8 @@ Address: %4
         <translation>This label turns red if any recipient receives an amount smaller than %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uposq per input.</source>
-        <translation>Can vary +/- %1 uposq per input.</translation>
+        <source>Can vary +/- %1 upiv per input.</source>
+        <translation>Can vary +/- %1 upiv per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1726,8 +1726,8 @@ Please be patient after clicking import.</translation>
         <translation>Address / Amount:</translation>
     </message>
     <message>
-        <source>Add destinations to send POSQ to</source>
-        <translation>Add destinations to send POSQ to</translation>
+        <source>Add destinations to send PIV to</source>
+        <translation>Add destinations to send PIV to</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1825,32 +1825,32 @@ Please be patient after clicking import.</translation>
         <translation>Please select a privacy level.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Use 2 separate masternodes to mix funds up to 10000 POSQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
+        <translation>Use 2 separate masternodes to mix funds up to 10000 PIV</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Use 8 separate masternodes to mix funds up to 10000 POSQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
+        <translation>Use 8 separate masternodes to mix funds up to 10000 PIV</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 separate masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 POSQ to anonymize 10000 POSQ</source>
-        <translation>This option is the quickest and will cost about ~0.025 POSQ to anonymise 10000 POSQ</translation>
+        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
+        <translation>This option is the quickest and will cost about ~0.025 PIV to anonymise 10000 PIV</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 POSQ to anonymize 10000 POSQ</source>
-        <translation>This option is moderately fast and will cost about 0.05 POSQ to anonymise 10000 POSQ</translation>
+        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
+        <translation>This option is moderately fast and will cost about 0.05 PIV to anonymise 10000 PIV</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>This is the slowest and most secure option. Using maximum anonymity will cost</translation>
     </message>
     <message>
-        <source>0.1 POSQ per 10000 POSQ you anonymize.</source>
-        <translation>0.1 POSQ per 10000 POSQ you anonymise.</translation>
+        <source>0.1 PIV per 10000 PIV you anonymize.</source>
+        <translation>0.1 PIV per 10000 PIV you anonymise.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1993,24 +1993,24 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of POSQ units to zPOSQ</source>
-        <translation>Enable automatic minting of POSQ units to zPOSQ</translation>
+        <source>Enable automatic minting of PIV units to zPOSQ</source>
+        <translation>Enable automatic minting of PIV units to zPOSQ</translation>
     </message>
     <message>
         <source>Enable zPOSQ Automint</source>
         <translation>Enable zPOSQ Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming POSQ which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage of incoming POSQ which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage of incoming PIV which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zPOSQ</source>
         <translation>Percentage of autominted zPOSQ</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough POSQ for this denomination is available</source>
-        <translation>Wait with automatic conversion to Zerocoin until enough POSQ for this denomination is available</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
+        <translation>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</translation>
     </message>
     <message>
         <source>Preferred Automint zPOSQ Denomination</source>
@@ -2184,8 +2184,8 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Total Balance, including all unavailable coins.</translation>
     </message>
     <message>
-        <source>POSQ Balance</source>
-        <translation>POSQ Balance</translation>
+        <source>PIV Balance</source>
+        <translation>PIV Balance</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2272,8 +2272,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Spendable:</translation>
     </message>
     <message>
-        <source>Locked POSQ or Masternode collaterals. These are excluded from zPOSQ minting.</source>
-        <translation>Locked POSQ or Masternode collaterals. These are excluded from zPOSQ minting.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zPOSQ minting.</source>
+        <translation>Locked PIV or Masternode collaterals. These are excluded from zPOSQ minting.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2455,8 +2455,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in posq.conf<
         <translation>Available for Minting:</translation>
     </message>
     <message>
-        <source>0.000 000 00 POSQ</source>
-        <translation>0.000 000 00 POSQ</translation>
+        <source>0.000 000 00 PIV</source>
+        <translation>0.000 000 00 PIV</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2495,8 +2495,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in posq.conf<
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>Enter an amount of POSQ to convert to zPOSQ</source>
-        <translation>Enter an amount of POSQ to convert to zPOSQ</translation>
+        <source>Enter an amount of Piv to convert to zPOSQ</source>
+        <translation>Enter an amount of Piv to convert to zPOSQ</translation>
     </message>
     <message>
         <source>zPOSQ Control</source>
@@ -3022,7 +3022,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of POSQ to convert to zPOSQ</comment>
+        <comment>Enter an amount of PIV to convert to zPOSQ</comment>
         <translation><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
@@ -3814,12 +3814,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>UTXO Size:</translation>
     </message>
     <message>
-        <source>0 POSQ</source>
-        <translation>0 POSQ</translation>
+        <source>0 PIV</source>
+        <translation>0 PIV</translation>
     </message>
     <message>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 POSQ applies</source>
-        <translation>SwiftX technology allows for near instant transactions - A flat fee of 0.01 POSQ applies</translation>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 PIV applies</source>
+        <translation>SwiftX technology allows for near instant transactions - A flat fee of 0.01 PIV applies</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3874,12 +3874,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Coins automatically selected</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "total at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "total at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for POSQ transactions than the network can process.</source>
@@ -3930,8 +3930,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Add &amp;Recipient</translation>
     </message>
     <message>
-        <source>Anonymized POSQ</source>
-        <translation>Anonymised POSQ</translation>
+        <source>Anonymized PIV</source>
+        <translation>Anonymised PIV</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4598,8 +4598,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Received via Obfuscation</translation>
     </message>
     <message>
-        <source>POSQ Stake</source>
-        <translation>POSQ Stake</translation>
+        <source>PIV Stake</source>
+        <translation>PIV Stake</translation>
     </message>
     <message>
         <source>zPOSQ Stake</source>
@@ -4622,24 +4622,24 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Obfuscation Create Denominations</translation>
     </message>
     <message>
-        <source>Converted POSQ to zPOSQ</source>
-        <translation>Converted POSQ to zPOSQ</translation>
+        <source>Converted PIV to zPOSQ</source>
+        <translation>Converted PIV to zPOSQ</translation>
     </message>
     <message>
         <source>Spent zPOSQ</source>
         <translation>Spent zPOSQ</translation>
     </message>
     <message>
-        <source>Received POSQ from zPOSQ</source>
-        <translation>Received POSQ from zPOSQ</translation>
+        <source>Received PIV from zPOSQ</source>
+        <translation>Received PIV from zPOSQ</translation>
     </message>
     <message>
         <source>Minted Change as zPOSQ from zPOSQ Spend</source>
         <translation>Minted Change as zPOSQ from zPOSQ Spend</translation>
     </message>
     <message>
-        <source>Converted zPOSQ to POSQ</source>
-        <translation>Converted zPOSQ to POSQ</translation>
+        <source>Converted zPOSQ to PIV</source>
+        <translation>Converted zPOSQ to PIV</translation>
     </message>
     <message>
         <source>Anonymous (zPOSQ Transaction)</source>
@@ -4861,8 +4861,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Exporting Successful</translation>
     </message>
     <message>
-        <source>Received POSQ from zPOSQ</source>
-        <translation>Received POSQ from zPOSQ</translation>
+        <source>Received PIV from zPOSQ</source>
+        <translation>Received PIV from zPOSQ</translation>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zPOSQ</source>
@@ -4902,8 +4902,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Send Coins</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 POSQ.</source>
-        <translation>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 POSQ.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
+        <translation>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</translation>
     </message>
 </context>
 <context>
@@ -4934,7 +4934,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZPOSQControlDialog</name>
+    <name>ZPivControlDialog</name>
     <message>
         <source>Select zPOSQ to Spend</source>
         <translation>Select zPOSQ to Spend</translation>
@@ -5015,8 +5015,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Enable automatic wallet backups triggered after each zPOSQ minting (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for POSQ inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for POSQ inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for zPOSQ inputs (0-1, default: %u)</source>
@@ -5055,12 +5055,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <source>Fees (in POSQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in POSQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in POSQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in POSQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5171,12 +5171,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Unable to locate enough Obfuscation denominated funds for this transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 POSQ.</source>
-        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 POSQ.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
+        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 POSQ.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 10000 POSQ.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5499,8 +5499,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Failed to read block</translation>
     </message>
     <message>
-        <source>Fee (in POSQ/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in POSQ/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in PIV/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -5631,8 +5631,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Percentage of automatically minted Zerocoin  (1-100, default: %u)</translation>
     </message>
     <message>
-        <source>Reindex the POSQ and zPOSQ money supply statistics</source>
-        <translation>Reindex the POSQ and zPOSQ money supply statistics</translation>
+        <source>Reindex the PIV and zPOSQ money supply statistics</source>
+        <translation>Reindex the PIV and zPOSQ money supply statistics</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>

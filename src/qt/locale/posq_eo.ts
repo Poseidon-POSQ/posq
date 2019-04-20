@@ -176,15 +176,15 @@
         <translation>Konfirmi monerĉifrado</translation>
     </message>
     <message>
-        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>POSQ fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn POSQs de esti ŝtelita per malware infektanta vian komputilon.</translation>
+        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>POSQ fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn PIVs de esti ŝtelita per malware infektanta vian komputilon.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ĉu vi certas ke vi volas ĉifri vian monujon?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
         <translation>Averto: se vi ĉifras vian monujo kaj perdi vian pasfrazon, vi &lt;b&gt;PERDOS VIAN TUTAN MONON&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -1098,8 +1098,8 @@ Muktisendi: %1</translation>
         <translation>Ĉi tiun etikedo ruĝiĝas se iu ajna ricevanto ricevas totalo pli malgranda ol %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uposq per input.</source>
-        <translation>Povas varii +/- %1 uposq per enigo.</translation>
+        <source>Can vary +/- %1 upiv per input.</source>
+        <translation>Povas varii +/- %1 upiv per enigo.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1514,8 +1514,8 @@ Muktisendi: %1</translation>
         <translation>Adreso / Kvanto:</translation>
     </message>
     <message>
-        <source>Add destinations to send POSQ to</source>
-        <translation>Aldonu destinoj por sendi POSQ al</translation>
+        <source>Add destinations to send PIV to</source>
+        <translation>Aldonu destinoj por sendi PIV al</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1581,12 +1581,12 @@ Muktisendi: %1</translation>
         <translation>Bonvolu elekti privata nivelo.</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 POSQ to anonymize 10000 POSQ</source>
-        <translation>Tion opcion estas la plej rapida kaji kostos ~0.025 POSQ por anonimigi 10000 POSQ</translation>
+        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
+        <translation>Tion opcion estas la plej rapida kaji kostos ~0.025 PIV por anonimigi 10000 PIV</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 POSQ to anonymize 10000 POSQ</source>
-        <translation>Tion opcion estas moderebla rapide kaj kostos ĉirkaŭ 0.05 POSQ por anonimigi 10000 POSQ</translation>
+        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
+        <translation>Tion opcion estas moderebla rapide kaj kostos ĉirkaŭ 0.05 PIV por anonimigi 10000 PIV</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1740,8 +1740,8 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Via aktuala elspezebla saldo</translation>
     </message>
     <message>
-        <source>POSQ Balance</source>
-        <translation>POSQ kvanto</translation>
+        <source>PIV Balance</source>
+        <translation>PIV kvanto</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1802,7 +1802,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Pago peto dosiero ne povas estas legi! Ĉi tio posqas esti kauzita por nevalida pago peto dosiero.</translation>
+        <translation>Pago peto dosiero ne povas estas legi! Ĉi tio pivas esti kauzita por nevalida pago peto dosiero.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
@@ -1827,8 +1827,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>zPOSQ</translation>
     </message>
     <message>
-        <source>0.000 000 00 POSQ</source>
-        <translation>0.000 000 00 POSQ</translation>
+        <source>0.000 000 00 PIV</source>
+        <translation>0.000 000 00 PIV</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2261,8 +2261,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Se estas aktiva sed ŝanĝo-adreso estas malpleniĝa au nevalida, ŝanĝo sendos al nova generita adreson.</translation>
     </message>
     <message>
-        <source>0 POSQ</source>
-        <translation>0 POSQ</translation>
+        <source>0 PIV</source>
+        <translation>0 PIV</translation>
     </message>
     <message>
         <source>Open Coin Control...</source>
@@ -2337,7 +2337,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     <message>
         <source>The POSQ address to send the payment to</source>
-        <translation>POSQC adreso por sendi la pago al</translation>
+        <translation>PIVC adreso por sendi la pago al</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2613,7 +2613,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     </context>
 <context>
-    <name>ZPOSQControlDialog</name>
+    <name>ZPivControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

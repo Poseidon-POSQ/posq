@@ -176,16 +176,16 @@
         <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</translation>
+        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1544,32 +1544,32 @@ Please check the address and try again.</translation>
         <translation>Please select a privacy level.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Use 2 separate masternodes to mix funds up to 10000 POSQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
+        <translation>Use 2 separate masternodes to mix funds up to 10000 PIV</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Use 8 separate masternodes to mix funds up to 10000 POSQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
+        <translation>Use 8 separate masternodes to mix funds up to 10000 PIV</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 separate masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 POSQ to anonymize 10000 POSQ</source>
-        <translation>This option is the quickest and will cost about ~0.025 POSQ to anonymize 10000 POSQ</translation>
+        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
+        <translation>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 POSQ to anonymize 10000 POSQ</source>
-        <translation>This option is moderately fast and will cost about 0.05 POSQ to anonymize 10000 POSQ</translation>
+        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
+        <translation>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>This is the slowest and most secure option. Using maximum anonymity will cost</translation>
     </message>
     <message>
-        <source>0.1 POSQ per 10000 POSQ you anonymize.</source>
-        <translation>0.1 POSQ per 10000 POSQ you anonymize.</translation>
+        <source>0.1 PIV per 10000 PIV you anonymize.</source>
+        <translation>0.1 PIV per 10000 PIV you anonymize.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1927,8 +1927,8 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Obfuscation Balance:</translation>
     </message>
     <message>
-        <source>0 POSQ / 0 Rounds</source>
-        <translation>0 POSQ / 0 Rounds</translation>
+        <source>0 PIV / 0 Rounds</source>
+        <translation>0 PIV / 0 Rounds</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2792,8 +2792,8 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>UTXO Size:</translation>
     </message>
     <message>
-        <source>0 POSQ</source>
-        <translation>0 POSQ</translation>
+        <source>0 PIV</source>
+        <translation>0 PIV</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2840,12 +2840,12 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Confirmation time:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "total at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "total at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for POSQ transactions than the network can process.</source>
@@ -3840,8 +3840,8 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Send Coins</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 POSQ.</source>
-        <translation>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 POSQ.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
+        <translation>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</translation>
     </message>
 </context>
 <context>
@@ -3974,12 +3974,12 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <source>Fees (in POSQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in POSQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in POSQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in POSQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4114,12 +4114,12 @@ for example: alertnotify=echo %%s | mail -s "POSQ Alert" admin@foo.com
         <translation>Unable to locate enough Obfuscation denominated funds for this transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 POSQ.</source>
-        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 POSQ.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
+        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 POSQ.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 10000 POSQ.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4166,8 +4166,8 @@ for example: alertnotify=echo %%s | mail -s "POSQ Alert" admin@foo.com
         <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
     </message>
     <message>
-        <source>(5510 could be used only on mainnet)</source>
-        <translation>(5510 could be used only on mainnet)</translation>
+        <source>(51472 could be used only on mainnet)</source>
+        <translation>(51472 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4178,8 +4178,8 @@ for example: alertnotify=echo %%s | mail -s "POSQ Alert" admin@foo.com
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 5510 for mainnet)</source>
-        <translation>(must be 5510 for mainnet)</translation>
+        <source>(must be 51472 for mainnet)</source>
+        <translation>(must be 51472 for mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4406,8 +4406,8 @@ for example: alertnotify=echo %%s | mail -s "POSQ Alert" admin@foo.com
         <translation>Failed to read block</translation>
     </message>
     <message>
-        <source>Fee (in POSQ/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in POSQ/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in PIV/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4578,8 +4578,8 @@ for example: alertnotify=echo %%s | mail -s "POSQ Alert" admin@foo.com
         <translation>Enable staking functionality (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Keep N POSQ anonymized (default: %u)</source>
-        <translation>Keep N POSQ anonymized (default: %u)</translation>
+        <source>Keep N PIV anonymized (default: %u)</source>
+        <translation>Keep N PIV anonymized (default: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

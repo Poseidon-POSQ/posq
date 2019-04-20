@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>POSQ verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi POSQ dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>POSQ verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi PIV dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI POSQ&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI PIV&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1102,8 +1102,8 @@ MultiSend: %1</translation>
         <translation>Questa etichetta diventa rossa se uno dei destinatari riceve un importo inferiore a %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uposq per input.</source>
-        <translation>Può variare di +/- %1 uPOSQ per input.</translation>
+        <source>Can vary +/- %1 upiv per input.</source>
+        <translation>Può variare di +/- %1 uPIV per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1262,7 +1262,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Welcome to POSQ Core.</source>
-        <translation>Benvenuto in POSQIX Core.</translation>
+        <translation>Benvenuto in PIVIX Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where POSQ Core will store its data.</source>
@@ -1619,12 +1619,12 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Configura Offuscamento</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Usa 2 masternodi diversi per mescolare fino a 10000 POSQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
+        <translation>Usa 2 masternodi diversi per mescolare fino a 10000 PIV</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Usa 8 masternodi diversi per mixare fino a 10000 POSQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
+        <translation>Usa 8 masternodi diversi per mixare fino a 10000 PIV</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -1661,16 +1661,16 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Mappa la porta utilizzando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of POSQ units to zPOSQ</source>
-        <translation>Attiva il conio automatico di unità POSQ in zPOSQ</translation>
+        <source>Enable automatic minting of PIV units to zPOSQ</source>
+        <translation>Attiva il conio automatico di unità PIV in zPOSQ</translation>
     </message>
     <message>
         <source>Enable zPOSQ Automint</source>
         <translation>Attiva Conio automatico zPOSQ</translation>
     </message>
     <message>
-        <source>Percentage of incoming POSQ which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentuale di POSQ in entrata che viene automaticamente convertita in zPOSQ attraverso il protocollo Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentuale di PIV in entrata che viene automaticamente convertita in zPOSQ attraverso il protocollo Zerocoin (min: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zPOSQ</source>
@@ -1740,8 +1740,8 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Saldo totale, inclusi tutte le monete non disponibili.</translation>
     </message>
     <message>
-        <source>POSQ Balance</source>
-        <translation>Bilancio POSQ</translation>
+        <source>PIV Balance</source>
+        <translation>Bilancio PIV</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1794,8 +1794,8 @@ Questi zPOSQ sono spendibili.</translation>
         <translation>Spendibili:</translation>
     </message>
     <message>
-        <source>Locked POSQ or Masternode collaterals. These are excluded from zPOSQ minting.</source>
-        <translation>POSQ bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zPOSQ.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zPOSQ minting.</source>
+        <translation>PIV bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zPOSQ.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -1885,8 +1885,8 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>zPOSQ</translation>
     </message>
     <message>
-        <source>0.000 000 00 POSQ</source>
-        <translation>0.000 000 00 POSQ</translation>
+        <source>0.000 000 00 PIV</source>
+        <translation>0.000 000 00 PIV</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1909,8 +1909,8 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>Enter an amount of POSQ to convert to zPOSQ</source>
-        <translation>Immetti un importo di POSQ da convertire in zPOSQ</translation>
+        <source>Enter an amount of Piv to convert to zPOSQ</source>
+        <translation>Immetti un importo di PIV da convertire in zPOSQ</translation>
     </message>
     <message>
         <source>zPOSQ Control</source>
@@ -2645,7 +2645,7 @@ Per cambiare la percentuale (riavvio non necessario):
     </message>
     </context>
 <context>
-    <name>ZPOSQControlDialog</name>
+    <name>ZPivControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

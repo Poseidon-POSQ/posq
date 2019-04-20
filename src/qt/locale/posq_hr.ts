@@ -172,16 +172,16 @@
         <translation>Potvrdite šifriranje novčanika</translation>
     </message>
     <message>
-        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>POSQ se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše POSQ od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>POSQ se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše PIV od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite vašu zaporku, vi ćete1 IZGUBITI ĆE TE SAV VAŠ POSQ1!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite vašu zaporku, vi ćete1 IZGUBITI ĆE TE SAV VAŠ PIV1!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1263,8 +1263,8 @@
         <translation>Ostatak:</translation>
     </message>
     <message>
-        <source>0 POSQ</source>
-        <translation>0 POSQ</translation>
+        <source>0 PIV</source>
+        <translation>0 PIV</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -1579,7 +1579,7 @@
     </message>
     </context>
 <context>
-    <name>ZPOSQControlDialog</name>
+    <name>ZPivControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

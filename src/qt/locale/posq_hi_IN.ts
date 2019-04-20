@@ -335,7 +335,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>ZPOSQControlDialog</name>
+    <name>ZPivControlDialog</name>
     </context>
 <context>
     <name>posq-core</name>

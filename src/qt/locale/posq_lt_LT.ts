@@ -176,16 +176,16 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar POSQ išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų POSQ nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar POSQ išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų PIV nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO POSQ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
+        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO PIV&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1098,8 +1098,8 @@ MultiSend: %1</translation>
         <translation>Ši etiketė taps raudona, jei gavėjas gaus sumą mažesnę už %1</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uposq per input.</source>
-        <translation>Gali skirtis +/- %1 uposq kiekvienoje įvestyje.</translation>
+        <source>Can vary +/- %1 upiv per input.</source>
+        <translation>Gali skirtis +/- %1 upiv kiekvienoje įvestyje.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1604,8 +1604,8 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Adresas / Suma:</translation>
     </message>
     <message>
-        <source>Add destinations to send POSQ to</source>
-        <translation>Pridėkite vietas, kurioms norite siųsti POSQ</translation>
+        <source>Add destinations to send PIV to</source>
+        <translation>Pridėkite vietas, kurioms norite siųsti PIV</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1703,32 +1703,32 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Pasirinkite privatumo lygmenį.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 POSQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
+        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 PIV</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 POSQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
+        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 PIV</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Naudokite 16 atskirų masternod'ų</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 POSQ to anonymize 10000 POSQ</source>
-        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 POSQ, kad anonimizuotų 10000 POSQ</translation>
+        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
+        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 PIV, kad anonimizuotų 10000 PIV</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 POSQ to anonymize 10000 POSQ</source>
-        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 POSQ, kad anonimizuotų 10000 POSQ</translation>
+        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
+        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 PIV, kad anonimizuotų 10000 PIV</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tai yra lėčiausias ir saugiausias variantas. Maksimalus anonimiškumas kainuos.</translation>
     </message>
     <message>
-        <source>0.1 POSQ per 10000 POSQ you anonymize.</source>
-        <translation>0.1 POSQ kas 1000 POSQ kuriuos anonimizuosite.</translation>
+        <source>0.1 PIV per 10000 PIV you anonymize.</source>
+        <translation>0.1 PIV kas 1000 PIV kuriuos anonimizuosite.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1843,16 +1843,16 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of POSQ units to zPOSQ</source>
-        <translation>Įgalinti automatinį konvertavimą iš POSQ į zPOSQ</translation>
+        <source>Enable automatic minting of PIV units to zPOSQ</source>
+        <translation>Įgalinti automatinį konvertavimą iš PIV į zPOSQ</translation>
     </message>
     <message>
         <source>Enable zPOSQ Automint</source>
         <translation>Įgalinti zPOSQ Automatinį nukaldinima</translation>
     </message>
     <message>
-        <source>Percentage of incoming POSQ which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentas gauto POSQ, kuris automatiškai bus konvertuotas į zPOSQ naudojant Zerocoin Protokolą (min: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentas gauto PIV, kuris automatiškai bus konvertuotas į zPOSQ naudojant Zerocoin Protokolą (min: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zPOSQ</source>
@@ -1982,8 +1982,8 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Bendras balansas, įskaitant visas nepasiekiamas monetas.</translation>
     </message>
     <message>
-        <source>POSQ Balance</source>
-        <translation>POSQ Balansas</translation>
+        <source>PIV Balance</source>
+        <translation>PIV Balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2070,8 +2070,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked POSQ or Masternode collaterals. These are excluded from zPOSQ minting.</source>
-        <translation>Užrakinti POSQ arba Masternode užstatai. Jie yra neįtraukti į zPOSQ kalimą.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zPOSQ minting.</source>
+        <translation>Užrakinti PIV arba Masternode užstatai. Jie yra neįtraukti į zPOSQ kalimą.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2187,8 +2187,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prieinama Konvertavimui:</translation>
     </message>
     <message>
-        <source>0.000 000 00 POSQ</source>
-        <translation>0.000 000 00 POSQ</translation>
+        <source>0.000 000 00 PIV</source>
+        <translation>0.000 000 00 PIV</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2220,7 +2220,7 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
     </message>
     <message>
         <source>zPOSQ Control</source>
-        <translation>zPOSQ Kontrolė</translation>
+        <translation>zPiv Kontrolė</translation>
     </message>
     <message>
         <source>zPOSQ Selected:</source>
@@ -2953,8 +2953,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Pasirinktinio pakeitimo adresas</translation>
     </message>
     <message>
-        <source>0 POSQ</source>
-        <translation>0 POSQ</translation>
+        <source>0 PIV</source>
+        <translation>0 PIV</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3401,7 +3401,7 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
     </message>
     </context>
 <context>
-    <name>ZPOSQControlDialog</name>
+    <name>ZPivControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

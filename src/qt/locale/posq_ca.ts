@@ -168,16 +168,16 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>POSQ es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus POSQ de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>POSQ es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus PIV de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES POSQS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES PIVS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1137,24 +1137,24 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 POSQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
+        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 PIV</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 POSQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
+        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 PIV</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utilitza 16 masternodes diferents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 POSQ to anonymize 10000 POSQ</source>
-        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 POSQ per anonimitzar 10000 POSQ</translation>
+        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
+        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 PIV per anonimitzar 10000 PIV</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 POSQ to anonymize 10000 POSQ</source>
-        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 POSQ per anonimitzar 10000 POSQ</translation>
+        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
+        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 PIV per anonimitzar 10000 PIV</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1295,8 +1295,8 @@
         <translation>zPOSQ</translation>
     </message>
     <message>
-        <source>0.000 000 00 POSQ</source>
-        <translation>0.000 000 00 POSQ</translation>
+        <source>0.000 000 00 PIV</source>
+        <translation>0.000 000 00 PIV</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1967,7 +1967,7 @@
     </message>
     </context>
 <context>
-    <name>ZPOSQControlDialog</name>
+    <name>ZPivControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Quantitat</translation>

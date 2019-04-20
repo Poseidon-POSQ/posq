@@ -176,7 +176,7 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
+        <source>POSQ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
         <translation>POSQ сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия POSQ от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
@@ -184,8 +184,8 @@
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ POSQ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ PIV&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1106,8 +1106,8 @@ Address: %4
         <translation>Етикета става червен, когато получателя ще получи сума по-малка от %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uposq per input.</source>
-        <translation>Може да има разлика от +/- %1 uposq на вх.</translation>
+        <source>Can vary +/- %1 upiv per input.</source>
+        <translation>Може да има разлика от +/- %1 upiv на вх.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1628,8 +1628,8 @@ Please be patient after clicking import.</source>
         <translation>Адрес / Сума:</translation>
     </message>
     <message>
-        <source>Add destinations to send POSQ to</source>
-        <translation>Добави получател на POSQ</translation>
+        <source>Add destinations to send PIV to</source>
+        <translation>Добави получател на PIV</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1727,32 +1727,32 @@ Please be patient after clicking import.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 POSQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
+        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 PIV</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 POSQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
+        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 PIV</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Използвай 16 различни мастърноуда</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 POSQ to anonymize 10000 POSQ</source>
-        <translation>Това е най-бързия метод и ще струва около 0.025 POSQ за да скриете 10000 POSQ</translation>
+        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
+        <translation>Това е най-бързия метод и ще струва около 0.025 PIV за да скриете 10000 PIV</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 POSQ to anonymize 10000 POSQ</source>
-        <translation>Тази опция е сравнително бърза и ще струва около 0.05 POSQ за да скриете 10000 POSQ</translation>
+        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
+        <translation>Тази опция е сравнително бърза и ще струва около 0.05 PIV за да скриете 10000 PIV</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Това е най-бавния и най-сигурен вариант за скриване на POSQ. Използването й ще струва</translation>
+        <translation>Това е най-бавния и най-сигурен вариант за скриване на PIV. Използването й ще струва</translation>
     </message>
     <message>
-        <source>0.1 POSQ per 10000 POSQ you anonymize.</source>
-        <translation>0.1 POSQ за 10000 скрити POSQ</translation>
+        <source>0.1 PIV per 10000 PIV you anonymize.</source>
+        <translation>0.1 PIV за 10000 скрити PIV</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1895,24 +1895,24 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Картографирай портовете използвайки &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of POSQ units to zPOSQ</source>
-        <translation>Включи автоматичното емитиране на POSQ единици в zPOSQ</translation>
+        <source>Enable automatic minting of PIV units to zPOSQ</source>
+        <translation>Включи автоматичното емитиране на PIV единици в zPOSQ</translation>
     </message>
     <message>
         <source>Enable zPOSQ Automint</source>
         <translation>Включи Автоматично емитиране на zPOSQ</translation>
     </message>
     <message>
-        <source>Percentage of incoming POSQ which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите POSQ, който автоматично да се конвертира в zPOSQ посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите PIV, който автоматично да се конвертира в zPOSQ посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zPOSQ</source>
         <translation>Процент автоматично сечени zPOSQ</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough POSQ for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zPOSQ докато не се съберат достатъчно POSQ за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zPOSQ докато не се съберат достатъчно PIV за тази деноминация</translation>
     </message>
     <message>
         <source>Preferred Automint zPOSQ Denomination</source>
@@ -2078,8 +2078,8 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Обща Наличност, включително и неналичните монети.</translation>
     </message>
     <message>
-        <source>POSQ Balance</source>
-        <translation>POSQ Наличности</translation>
+        <source>PIV Balance</source>
+        <translation>PIV Наличности</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2166,8 +2166,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Налични за харчене:</translation>
     </message>
     <message>
-        <source>Locked POSQ or Masternode collaterals. These are excluded from zPOSQ minting.</source>
-        <translation>Заключен POSQ или допълнителни гаранции в Главни Възли. Тези не са включени в zPOSQ емитирането.</translation>
+        <source>Locked PIV or Masternode collaterals. These are excluded from zPOSQ minting.</source>
+        <translation>Заключен PIV или допълнителни гаранции в Главни Възли. Тези не са включени в zPOSQ емитирането.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2341,8 +2341,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in posq.conf<
         <translation>Налични за сечене:</translation>
     </message>
     <message>
-        <source>0.000 000 00 POSQ</source>
-        <translation>0.000 000 00 POSQ</translation>
+        <source>0.000 000 00 PIV</source>
+        <translation>0.000 000 00 PIV</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2381,8 +2381,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in posq.conf<
         <translation>КОНФИДЕНЦИАЛНОСТ</translation>
     </message>
     <message>
-        <source>Enter an amount of POSQ to convert to zPOSQ</source>
-        <translation>Въведете колко POSQ  да се конвертират в zPOSQ</translation>
+        <source>Enter an amount of Piv to convert to zPOSQ</source>
+        <translation>Въведете колко PIV  да се конвертират в zPOSQ</translation>
     </message>
     <message>
         <source>zPOSQ Control</source>
@@ -3662,8 +3662,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 POSQ</source>
-        <translation>0 POSQ</translation>
+        <source>0 PIV</source>
+        <translation>0 PIV</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3718,12 +3718,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uPOSQ и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uPOSQ входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uPOSQ. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uPIV и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uPIV входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uPIV. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "total at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uPOSQ и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uPOSQ входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uPOSQ. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uPIV и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uPIV входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uPIV. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for POSQ transactions than the network can process.</source>
@@ -3774,8 +3774,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized POSQ</source>
-        <translation>Анонимизиран POSQ</translation>
+        <source>Anonymized PIV</source>
+        <translation>Анонимизиран PIV</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3823,7 +3823,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Warning: Invalid POSQ address</source>
-        <translation>Предупреждение: Невалиден POSQ адрес</translation>
+        <translation>Предупреждение: Невалиден PIV адрес</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -4418,8 +4418,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Получен посредством обфускация</translation>
     </message>
     <message>
-        <source>POSQ Stake</source>
-        <translation>POSQ Stake</translation>
+        <source>PIV Stake</source>
+        <translation>PIV Stake</translation>
     </message>
     <message>
         <source>zPOSQ Stake</source>
@@ -4442,24 +4442,24 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Обфускация и направа на Деноминации</translation>
     </message>
     <message>
-        <source>Converted POSQ to zPOSQ</source>
-        <translation>Конвертиран POSQ във zPOSQ</translation>
+        <source>Converted PIV to zPOSQ</source>
+        <translation>Конвертиран PIV във zPOSQ</translation>
     </message>
     <message>
         <source>Spent zPOSQ</source>
         <translation>Похарчени zPOSQ</translation>
     </message>
     <message>
-        <source>Received POSQ from zPOSQ</source>
-        <translation>Получен POSQ от zPOSQ</translation>
+        <source>Received PIV from zPOSQ</source>
+        <translation>Получен PIV от zPOSQ</translation>
     </message>
     <message>
         <source>Minted Change as zPOSQ from zPOSQ Spend</source>
         <translation>Исечено ресто като zPOSQ от похарчените zPOSQ</translation>
     </message>
     <message>
-        <source>Converted zPOSQ to POSQ</source>
-        <translation>Конвертиран zPOSQ във POSQ</translation>
+        <source>Converted zPOSQ to PIV</source>
+        <translation>Конвертиран zPOSQ във PIV</translation>
     </message>
     <message>
         <source>Anonymous (zPOSQ Transaction)</source>
@@ -4677,8 +4677,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Експортирането Успешно</translation>
     </message>
     <message>
-        <source>Received POSQ from zPOSQ</source>
-        <translation>Получен POSQ от zPOSQ</translation>
+        <source>Received PIV from zPOSQ</source>
+        <translation>Получен PIV от zPOSQ</translation>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zPOSQ</source>
@@ -4718,8 +4718,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 POSQ.</source>
-        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 POSQ.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
+        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 PIV.</translation>
     </message>
 </context>
 <context>
@@ -4750,7 +4750,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZPOSQControlDialog</name>
+    <name>ZPivControlDialog</name>
     <message>
         <source>Select zPOSQ to Spend</source>
         <translation>Изберете zPOSQ за Изпращане</translation>
@@ -4827,8 +4827,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Разпространява се пот MIT софтуерен лиценз, виж съпровождащия файл от &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for POSQ inputs (0-1, default: %u)</source>
-        <translation>Активиране или деактивиране на функцията за зареждане за POSQ входове (0-1, по подразбиране: %u)</translation>
+        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
+        <translation>Активиране или деактивиране на функцията за зареждане за PIV входове (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for zPOSQ inputs (0-1, default: %u)</source>
@@ -4867,12 +4867,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in POSQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в POSQ/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в PIV/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in POSQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в POSQ/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в PIV/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4979,12 +4979,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Не намираме достатъчно Обфускационно деноминирани средства за този превод.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 POSQ.</source>
-        <translation>Не можем да намерим достатъчно Обфускационно не-деноминирани средства за този превод, които да не са равни на 10000 POSQ.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
+        <translation>Не можем да намерим достатъчно Обфускационно не-деноминирани средства за този превод, които да не са равни на 10000 PIV.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 POSQ.</source>
-        <translation>Не намираме достатъчно средства за този превод, които да не са равни на 10000 POSQ.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
+        <translation>Не намираме достатъчно средства за този превод, които да не са равни на 10000 PIV.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5295,8 +5295,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Неуспешно четене на блок</translation>
     </message>
     <message>
-        <source>Fee (in POSQ/kB) to add to transactions you send (default: %s)</source>
-        <translation>Такса (в POSQ/kB), която да се добави към изходящи преводи (по подразбиране: %s)</translation>
+        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
+        <translation>Такса (в PIV/kB), която да се добави към изходящи преводи (по подразбиране: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -5427,8 +5427,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Процент автоматично емитирани Zerocoin (1-100, по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Reindex the POSQ and zPOSQ money supply statistics</source>
-        <translation>Индексирай наново POSQ и zPOSQ данните по наличности</translation>
+        <source>Reindex the PIV and zPOSQ money supply statistics</source>
+        <translation>Индексирай наново PIV и zPOSQ данните по наличности</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
