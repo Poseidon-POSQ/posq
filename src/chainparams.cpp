@@ -273,6 +273,8 @@ public:
 	CTestNetParams()
 	{
 		networkID = CBaseChainParams::TESTNET;
+		vReviveRewardAddress = "";
+		vTreasuryRewardAddress = "yGarJxJMYbm1mKZLsNLL3W7Yiezb8fGyA3";
 		strNetworkID = "test";
 		pchMessageStart[0] = 0x2a;
 		pchMessageStart[1] = 0x3c;
