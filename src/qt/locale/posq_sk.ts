@@ -136,10 +136,6 @@
         <translation>Slúži na zakázanie obyčajného odoslania peňazí, v prípade, že bol OS účet kompromitovaný. Neposkytuje žiadnu skutočnú bezpečnosť.</translation>
     </message>
     <message>
-        <source>For anonymization and staking only</source>
-        <translation>Len pre anonymizáciu a staking</translation>
-    </message>
-    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Zadajte novú prístupovú frázu do peňaženky. &lt;br/&gt; Použite prístupovú frázu &lt;b&gt;, ktorá má desať alebo viac náhodných znakov &lt;/ b&gt; alebo &lt;b&gt; osem alebo viac slov &lt;/ b&gt;.</translation>
     </message>
@@ -229,6 +225,9 @@
     </message>
 </context>
 <context>
+    <name>BanTableModel</name>
+    </context>
+<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -239,16 +238,8 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a POSQ Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu POSQ, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
-    </message>
-    <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
-    </message>
-    <message>
-        <source>The POSQ address to sign the message with</source>
-        <translation>Adresa POSQ, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,16 +270,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this POSQ address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto POSQ adresy</translation>
-    </message>
-    <message>
         <source>Encrypt &amp;Key</source>
         <translation>Zašifrovať kľúč</translation>
-    </message>
-    <message>
-        <source>Reset all sign message fields</source>
-        <translation>Zmazať všetky polia správy</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -303,20 +286,8 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The POSQ address the message was signed with</source>
-        <translation>POSQ adresa, ktorou bola správa podpísaná</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified POSQ address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou POSQ adresou</translation>
-    </message>
-    <message>
         <source>Decrypt &amp;Key</source>
         <translation>Dešifrovať kľúč</translation>
-    </message>
-    <message>
-        <source>Reset all verify message fields</source>
-        <translation>Zmazať všetky polia verifikácie správy</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -710,10 +681,6 @@
         <translation>%1 a %2</translation>
     </message>
     <message>
-        <source>%1 behind</source>
-        <translation>%1 pozadu</translation>
-    </message>
-    <message>
         <source>Catching up...</source>
         <translation>Dobieham...</translation>
     </message>
@@ -786,14 +753,10 @@ MultiSend: %1</translation>
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/ b&gt; a momentálne je &lt;b&gt;odomknutá&lt;/ b&gt;</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/ b&gt; a momentálne &lt;b&gt;odomknutá&lt;/ b&gt; iba na anonymizáciu a staking</translation>
-    </message>
-    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/ b&gt; a momentálne je &lt;b&gt;zamknutá&lt;/ b&gt;</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>BlockExplorer</name>
     <message>
@@ -902,6 +865,9 @@ MultiSend: %1</translation>
     <name>FreespaceChecker</name>
     </context>
 <context>
+    <name>GovernancePage</name>
+    </context>
+<context>
     <name>HelpMessageDialog</name>
     <message>
         <source>POSQ Core</source>
@@ -939,6 +905,17 @@ MultiSend: %1</translation>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(žiaden štítok)</translation>
+    </message>
+    </context>
+<context>
+    <name>MultisigDialog</name>
+    <message>
+        <source>Amount:</source>
+        <translation>Suma:</translation>
     </message>
     </context>
 <context>
@@ -990,6 +967,10 @@ MultiSend: %1</translation>
         <translation>Priorita:</translation>
     </message>
     <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
         <source>Fee:</source>
         <translation>Poplatok:</translation>
     </message>
@@ -1007,10 +988,17 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
+    <name>ProposalFrame</name>
+    </context>
+<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
         <translation>Suma</translation>
+    </message>
+    <message>
+        <source>POSQ Core</source>
+        <translation>POSQ Core</translation>
     </message>
     </context>
 <context>
@@ -1032,6 +1020,10 @@ MultiSend: %1</translation>
     <message>
         <source>Copy amount</source>
         <translation>Skopírovať sumu</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Skopírovať adresu</translation>
     </message>
 </context>
 <context>
@@ -1058,6 +1050,10 @@ MultiSend: %1</translation>
     <message>
         <source>Label</source>
         <translation>Štítok</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -1303,7 +1299,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ZPhrControlDialog</name>
+    <name>ZPivControlDialog</name>
     </context>
 <context>
     <name>posq-core</name>

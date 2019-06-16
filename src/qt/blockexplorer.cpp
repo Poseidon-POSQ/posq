@@ -1,6 +1,8 @@
+// Copyright (c) 2011-2014 The Bitcoin developers
+// Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Copyright (c) 2018-2019 The POSQ developers
-// Distributed under the MIT/X11 software license, see the accompanying
+// Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "blockexplorer.h"
@@ -396,8 +398,10 @@ std::string AddressToString(const CBitcoinAddress& Address)
     /*
     CScript AddressScript;
     AddressScript.SetDestination(Address.Get());
+
     CAmount Sum = 0;
     bool fAddrIndex = false;
+
     if (!fAddrIndex)
         return ""; // it will take too long to find transactions by address
     else
@@ -475,7 +479,7 @@ void BlockExplorer::showEvent(QShowEvent*)
         m_History.push_back(text);
         updateNavButtons();
 
-        if (!GetBoolArg("-txindex", false)) {
+        if (!GetBoolArg("-txindex", true)) {
             QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (posq.conf).");
             QMessageBox::warning(this, "POSQ Core Blockchain Explorer", Warning, QMessageBox::Ok);
         }

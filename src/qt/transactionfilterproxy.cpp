@@ -1,5 +1,8 @@
-// Copyright (c) 2011-2013 The Bitcoin developers
-// Distributed under the MIT/X11 software license, see the accompanying
+// Copyright (c) 2011-2014 The Bitcoin developers
+// Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2018-2019 The POSQ developers
+// Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "transactionfilterproxy.h"
@@ -24,7 +27,8 @@ TransactionFilterProxy::TransactionFilterProxy(QObject* parent) : QSortFilterPro
                                                                   watchOnlyFilter(WatchOnlyFilter_All),
                                                                   minAmount(0),
                                                                   limitRows(-1),
-                                                                  showInactive(true)
+                                                                  showInactive(true),
+                                                                  fHideOrphans(false)
 {
 }
 
@@ -42,6 +46,8 @@ bool TransactionFilterProxy::filterAcceptsRow(int sourceRow, const QModelIndex& 
 
     if (!showInactive && status == TransactionStatus::Conflicted)
         return false;
+    //if (fHideOrphans && isOrphan(status, type))
+        //return false;
     if (!(TYPE(type) & typeFilter))
         return false;
     if (involvesWatchAddress && watchOnlyFilter == WatchOnlyFilter_No)
@@ -100,6 +106,12 @@ void TransactionFilterProxy::setShowInactive(bool showInactive)
     invalidateFilter();
 }
 
+void TransactionFilterProxy::setHideOrphans(bool fHide)
+{
+    this->fHideOrphans = fHide;
+    invalidateFilter();
+}
+
 int TransactionFilterProxy::rowCount(const QModelIndex& parent) const
 {
     if (limitRows != -1) {
@@ -108,3 +120,5 @@ int TransactionFilterProxy::rowCount(const QModelIndex& parent) const
         return QSortFilterProxyModel::rowCount(parent);
     }
 }
+
+
