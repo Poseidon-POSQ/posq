@@ -109,6 +109,7 @@ ReceiveCoinsDialog::~ReceiveCoinsDialog()
 void ReceiveCoinsDialog::clear()
 {
     ui->reqAmount->clear();
+    address = getAddress();
     ui->reqAddress->setText(address);
     ui->reqLabel->setText("");
     ui->reqMessage->setText("");
