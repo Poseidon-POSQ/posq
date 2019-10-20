@@ -6463,7 +6463,12 @@ int ActiveProtocol()
 
     // SPORK_19 will be used after SPORK_15 is used and commented out from being turned off.
     // This will be turned on after first of the year to enforce me spork privkey!
-    if (IsSporkActive(SPORK_19_NEW_PROTOCOL_ENFORCEMENT_3))
+    //if (IsSporkActive(SPORK_19_NEW_PROTOCOL_ENFORCEMENT_3))
+    //    return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
+    //return MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT;
+
+
+    if (IsSporkActive(SPORK_20_NEW_PROTOCOL_ENFORCEMENT_4))
         return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
     return MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT;
 }

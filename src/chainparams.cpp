@@ -181,7 +181,7 @@ public:
 		assert(genesis.hashMerkleRoot == uint256("0x5631b0ce092246abb7f7cbf0a6ee315bd7cf41092a714c7ece4c1aed15dd3995"));
 
 		//Teams Seeder
-		vSeeds.push_back(CDNSSeedData("seed.posq.space", "seed.posq.space"));
+		vSeeds.push_back(CDNSSeedData("seed.posq.io", "seed.posq.io"));
 		//Seeds	Community Nodes
 		vSeeds.push_back(CDNSSeedData("posq.seeds.mn.zone", "posq.seeds.mn.zone"));
 		vSeeds.push_back(CDNSSeedData("posq.mnseeds.com", "posq.mnseeds.com"));

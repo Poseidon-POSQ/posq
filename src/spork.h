@@ -28,7 +28,7 @@ Don't ever reuse these IDs for other sporks
 Sporks 11,12, and 16 to be removed with 1st zerocoin release
 */
 #define SPORK_START 10001
-#define SPORK_END 10019
+#define SPORK_END 10020
 
 #define SPORK_2_SWIFTTX 10001
 #define SPORK_3_SWIFTTX_BLOCK_FILTERING 10002
@@ -46,6 +46,7 @@ Sporks 11,12, and 16 to be removed with 1st zerocoin release
 #define SPORK_17_TREASURY_PAYMENT_ENFORCEMENT 10016
 #define SPORK_18_REVIVE_PAYMENT_ENFORCEMENT 10017
 #define SPORK_19_NEW_PROTOCOL_ENFORCEMENT_3 10018
+#define SPORK_20_NEW_PROTOCOL_ENFORCEMENT_4 10019
 
 #define SPORK_2_SWIFTTX_DEFAULT 978307200                         //ON 01/01/2001 @ 12:00am (UTC)
 #define SPORK_3_SWIFTTX_BLOCK_FILTERING_DEFAULT 1424217600        //ON 02/18/2015 @ 12:00am (UTC)
@@ -62,6 +63,7 @@ Sporks 11,12, and 16 to be removed with 1st zerocoin release
 #define SPORK_17_TREASURY_PAYMENT_ENFORCEMENT_DEFAULT 4070908800  //OFF 01/01/2099 @ 12:00am (UTC)
 #define SPORK_18_REVIVE_PAYMENT_ENFORCEMENT_DEFAULT 4070908800    //OFF This will be turned on if Admin in AQX is not active on 1/1/2019
 #define SPORK_19_NEW_PROTOCOL_ENFORCEMENT_3_DEFAULT 4070908800    //OFF 01/01/2099 @ 12:00am (UTC)
+#define SPORK_20_NEW_PROTOCOL_ENFORCEMENT_4_DEFAULT 4070908800    //OFF 01/01/2099 @ 12:00am (UTC)
 
 class CSporkMessage;
 class CSporkManager;
