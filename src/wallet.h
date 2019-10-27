@@ -138,6 +138,8 @@ public:
     {
         if (!(nType & SER_GETHASH))
             READWRITE(nVersion);
+        READWRITE(nTime);
+        READWRITE(vchPubKey);
         if (ser_action.ForRead()) {
             try {
                 READWRITE(fInternal);
