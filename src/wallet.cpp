@@ -2539,7 +2539,7 @@ bool CWallet::CreateCollateralTransaction(CMutableTransaction& txCollateral, std
     // make our change address
     CScript scriptChange;
     CPubKey vchPubKey;
-    assert(reservekey.GetReservedKey(vchPubKey, false)); // should never fail, as we just unlocked
+    assert(reservekey.GetReservedKey(vchPubKey, true)); // should never fail, as we just unlocked
     scriptChange = GetScriptForDestination(vchPubKey.GetID());
     reservekey.KeepKey();
 
@@ -4794,7 +4794,7 @@ bool CWallet::CreateZerocoinSpendTransaction(CAmount nValue, int nSecurityLevel,
                 if (nChange) {
                     // Reserve a new key pair from key pool
                     CPubKey vchPubKey;
-                    assert(reserveKey.GetReservedKey(vchPubKey, false)); // should never fail
+                    assert(reserveKey.GetReservedKey(vchPubKey, true)); // should never fail
                     scriptChange = GetScriptForDestination(vchPubKey.GetID());
                 }
             } else {
