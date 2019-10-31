@@ -29,6 +29,16 @@
 #include <boost/filesystem/path.hpp>
 #include <boost/thread/exceptions.hpp>
 
+// Debugging macros
+// Uncomment the following line to enable debugging messages
+// or enable on a per file basis prior to inclusion of util.h
+//#define ENABLE_POSQ_DEBUG
+#ifdef ENABLE_POSQ_DEBUG
+#define DBG( x ) x
+#else
+#define DBG( x )
+#endif
+
 //POSQ only features
 
 extern bool fMasterNode;

@@ -801,3 +801,8 @@ bool WalletModel::isMine(CBitcoinAddress address)
 //{
 //    return wallet->IsUsed(address);
 //}
+
+bool WalletModel::hdEnabled() const
+{
+    return wallet->IsHDEnabled();
+} 

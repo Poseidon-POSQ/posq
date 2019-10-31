@@ -525,7 +525,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
 		/* TODO-- too poor as per performance, but only way */
 		
 		CPubKey pubkey;
-		if (!pMiningKey->GetReservedKey(pubkey))
+		if (!pMiningKey->GetReservedKey(pubkey, false))
 			return Value::null;
 		
         CScript scriptDummy = CScript() << ToByteVector(pubkey) << OP_CHECKSIG;
