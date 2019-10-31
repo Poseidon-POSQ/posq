@@ -1,4 +1,7 @@
-// Copyright (c) 2011-2013 The Bitcoin developers
+// Copyright (c) 2011-2014 The Bitcoin developers
+// Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2018-2019 The POSQ developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -7,7 +10,7 @@
 
 #include <QObject>
 
-/** Macintosh-specific notification handler (supports UserNotificationCenter and Growl).
+/** Macintosh-specific notification handler (supports UserNotificationCenter).
  */
 class MacNotificationHandler : public QObject
 {

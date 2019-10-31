@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Изтрии</translation>
+        <translation>&amp;Изтрий</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -136,8 +136,8 @@
         <translation>Служи за изключване на възможността пари да бъдат превеждани, когато акаунта на операционната система е компрометиран. Не предоставя съществено ниво на сигурност.</translation>
     </message>
     <message>
-        <source>For anonymization and staking only</source>
-        <translation>Само за анонимизация и стейкване</translation>
+        <source>For anonymization, automint, and staking only</source>
+        <translation>За анонимизация, авто-емитиране, и единствено съхранение</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -229,6 +229,17 @@
     </message>
 </context>
 <context>
+    <name>BanTableModel</name>
+    <message>
+        <source>IP/Netmask</source>
+        <translation>IP/Netmask</translation>
+    </message>
+    <message>
+        <source>Banned Until</source>
+        <translation>Забранен до</translation>
+    </message>
+</context>
+<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -239,16 +250,16 @@
         <translation>&amp;BIP 38 Шифриране</translation>
     </message>
     <message>
-        <source>Enter a POSQ Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете POSQ адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
-    </message>
-    <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The POSQ address to sign the message with</source>
-        <translation>POSQ адреса, с който да подпишете съобщението</translation>
+        <source>Enter a POSQ Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете POSQ адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания таен ключ. </translation>
+    </message>
+    <message>
+        <source>The POSQ address to encrypt</source>
+        <translation>POSQ Адреса за криптиране</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,16 +290,24 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this POSQ address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този POSQ адрес</translation>
+        <source>Encrypt the private key for this POSQ address</source>
+        <translation>Криптирай тайния ключ за този POSQ адрес</translation>
+    </message>
+    <message>
+        <source>Reset all fields</source>
+        <translation>Нулирай всички полета</translation>
+    </message>
+    <message>
+        <source>The encrypted private key</source>
+        <translation>Криптирания таен ключ</translation>
+    </message>
+    <message>
+        <source>Decrypt the entered key using the passphrase</source>
+        <translation>Разшифровай въведения ключ с парола</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
         <translation>Шифрирай &amp;ключ</translation>
-    </message>
-    <message>
-        <source>Reset all sign message fields</source>
-        <translation>Ресет на всички полета</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -303,20 +322,8 @@
         <translation>Въведете личният си BIP 38 ключ. Въведете тайната фраза в средното поле. Избери Дешифриращия Ключ за да изчислим личния ключ. След като ключа се дешифрира, за да добаите ключа към портфейла, кликнете "Импортирай адрес".</translation>
     </message>
     <message>
-        <source>The POSQ address the message was signed with</source>
-        <translation>POSQ адреса, който е подписано съобщението</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified POSQ address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения POSQ адрес</translation>
-    </message>
-    <message>
         <source>Decrypt &amp;Key</source>
         <translation>Дешифрирай &amp;Ключ</translation>
-    </message>
-    <message>
-        <source>Reset all verify message fields</source>
-        <translation>Ресет на всички полета за проверка</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -424,6 +431,10 @@
     <message>
         <source>Browse transaction history</source>
         <translation>История на транзакциите</translation>
+    </message>
+    <message>
+        <source>Privacy Actions for zPOSQ</source>
+        <translation>Поверителни Действия за ZPOSQ</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -566,6 +577,30 @@
         <translation>Покажи списък с използваните получаващи адреси</translation>
     </message>
     <message>
+        <source>&amp;Multisignature creation...</source>
+        <translation>Създаване на &amp;Мултиподпис</translation>
+    </message>
+    <message>
+        <source>Create a new multisignature address and add it to this wallet</source>
+        <translation>Създаване на нов мултиподписен адрес и добавянето му към този портфейл</translation>
+    </message>
+    <message>
+        <source>&amp;Multisignature spending...</source>
+        <translation>Разход с &amp;Мултиподпис...</translation>
+    </message>
+    <message>
+        <source>Spend from a multisignature address</source>
+        <translation>Направи разход от адрес с мултиподпис</translation>
+    </message>
+    <message>
+        <source>&amp;Multisignature signing...</source>
+        <translation>Подписване с &amp;Мултиподпис...</translation>
+    </message>
+    <message>
+        <source>Sign with a multisignature address</source>
+        <translation>Подпиши с мултиподписен адрес</translation>
+    </message>
+    <message>
         <source>Open &amp;URI...</source>
         <translation>Отвори &amp;URI...</translation>
     </message>
@@ -573,13 +608,17 @@
         <source>&amp;Command-line options</source>
         <translation>Опции за &amp;Командното-поле</translation>
     </message>
-    <message numerus="yes">
-        <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>Oбработен %n блока от историята на транзакциите.</numerusform><numerusform>Обработените %n блокове от историята на транзакциите.</numerusform></translation>
-    </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
         <translation>Синхронизиране на допълнитенни данни: %p%</translation>
+    </message>
+    <message>
+        <source>%1 behind. Scanning block %2</source>
+        <translation>Изостава с %1. Сканира блок %2</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonymization and staking only</source>
+        <translation>Портфейла е &lt;b&gt;криптиран&lt;/b&gt; и в момента &lt;b&gt;отключен&lt;/b&gt; за анонимизация и съхранение.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -616,10 +655,6 @@
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;Поверителност</translation>
-    </message>
-    <message>
-        <source>Privacy Action for zPOSQ and Obfuscation</source>
-        <translation>Поверителни действия за zPOSQ и Обфускация</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -697,10 +732,6 @@
         <source>POSQ Core client</source>
         <translation>Клиент POSQ Ядро</translation>
     </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to POSQ network</source>
-        <translation><numerusform>%n активни връзки към POSQ мрежата</numerusform><numerusform>%n активни свръзки към POSQ мрежата</numerusform></translation>
-    </message>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Синхронизиране с мрежата...</translation>
@@ -721,29 +752,9 @@
         <source>Up to date</source>
         <translation>Актуален</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n часа</numerusform><numerusform>%n часа</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n дни</numerusform><numerusform>%n дни</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n седмица</numerusform><numerusform>%n седмици</numerusform></translation>
-    </message>
     <message>
         <source>%1 and %2</source>
         <translation>%1 и %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n година</numerusform><numerusform>%n години</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 behind</source>
-        <translation>%1 изостанал</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -814,18 +825,22 @@ Address: %4
 МултиИзпращане: %1</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Портфейла е &lt;b&gt;шифриран&lt;/b&gt;и в момента е&lt;b&gt;отключен&lt;/b&gt;</translation>
+        <source>AutoMint is currently enabled and set to </source>
+        <translation>АвтоЕмисията е включена и настроена на</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
-        <translation>Портфейла е &lt;b&gt;шифриран&lt;/b&gt; и в момента е &lt;b&gt;отключен&lt;/b&gt;в режим на анонимизация и стейкинг</translation>
+        <source>AutoMint is disabled</source>
+        <translation>АвтоЕмитирането е изключено</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>Портфейла е &lt;b&gt;шифриран&lt;/b&gt;и в момента е&lt;b&gt;отключен&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Портфейла е &lt;b&gt;шифриран&lt;/b&gt; и в момента е &lt;b&gt;отключен&lt;/b&gt;</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>BlockExplorer</name>
     <message>
@@ -939,6 +954,10 @@ Address: %4
         <translation>Получени с адрес</translation>
     </message>
     <message>
+        <source>Type</source>
+        <translation>Вид</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Дата</translation>
     </message>
@@ -1027,10 +1046,6 @@ Address: %4
         <translation>средно-висок</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Възможна фира от +/- %1 duff(s) на вход.</translation>
-    </message>
-    <message>
         <source>medium</source>
         <translation>среден</translation>
     </message>
@@ -1089,6 +1104,10 @@ Address: %4
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
         <translation>Етикета става червен, когато получателя ще получи сума по-малка от %1.</translation>
+    </message>
+    <message>
+        <source>Can vary +/- %1 upiv per input.</source>
+        <translation>Може да има разлика от +/- %1 upiv на вх.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1181,6 +1200,17 @@ Address: %4
         <translation>Не може да създадете нова папка за данни точно тук.</translation>
     </message>
 </context>
+<context>
+    <name>GovernancePage</name>
+    <message>
+        <source>Form</source>
+        <translation>От</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1290,8 +1320,8 @@ Address: %4
         <translation>От</translation>
     </message>
     <message>
-        <source>My Masternodes</source>
-        <translation>Моите Мастърноудове</translation>
+        <source>MASTERNODES</source>
+        <translation>ГЛАВНИ ВЪЗЛИ</translation>
     </message>
     <message>
         <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</source>
@@ -1455,6 +1485,14 @@ MultiSend will not be activated unless you have clicked Activate</source>
         <translation>Адрес:</translation>
     </message>
     <message>
+        <source>Label:</source>
+        <translation>Етикет:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Задайте етикет на този адрес, с който да бъде добавен във Вашата Адресна Книга</translation>
+    </message>
+    <message>
         <source>Delete Address From MultiSend Vector</source>
         <translation>Изтрий адреса от вектора по МултиИзпращане</translation>
     </message>
@@ -1487,42 +1525,183 @@ MultiSend will not be activated unless you have clicked Activate</source>
         <translation>Изпрати за Мастърноуд награди</translation>
     </message>
     <message>
-        <source>The entered address:
-</source>
-        <translation>Въведения адрес:
-</translation>
-    </message>
-    <message>
-        <source> is invalid.
-Please check the address and try again.</source>
-        <translation>е невалиден.
-Моля проверете адреса отново и опитайте пак.</translation>
-    </message>
-    <message>
-        <source>The total amount of your MultiSend vector is over 100% of your stake reward
-</source>
-        <translation>Сумата по Вашия вектор за МултиИзпращане надхвърля 100% от вашето стейк възнаграждение.
-</translation>
+        <source>(no label)</source>
+        <translation>(без етикет)</translation>
     </message>
     <message>
         <source>Please Enter 1 - 100 for percent.</source>
         <translation>Използвайте числата 1 - 100 за процент.</translation>
     </message>
+</context>
+<context>
+    <name>MultisigDialog</name>
     <message>
-        <source>MultiSend Vector
-</source>
-        <translation>Вектор по МултиИзпращане
-</translation>
+        <source>Multisignature Address Interactions</source>
+        <translation>Взаимодействия с Мултиподписния Адрес</translation>
     </message>
     <message>
-        <source>Removed </source>
-        <translation>Премахнат</translation>
+        <source>Create MultiSignature &amp;Address</source>
+        <translation>Създай МултиПодпис &amp;Адрес</translation>
     </message>
     <message>
-        <source>Could not locate address
-</source>
-        <translation>Не намирам адреса
-</translation>
+        <source>How many people must sign to verify a transaction</source>
+        <translation>Колко души трябва да подпишат за да потвърдят превода</translation>
+    </message>
+    <message>
+        <source>Enter the minimum number of signatures required to sign transactions</source>
+        <translation>Въведете минимален брой подписа, нужни за оторизиране на преводите</translation>
+    </message>
+    <message>
+        <source>Address Label:</source>
+        <translation>Етикет за Адреса:</translation>
+    </message>
+    <message>
+        <source>Add another address that could sign to verify a transaction from the multisig address.</source>
+        <translation>Добави друг адрес, който може да подпише за оторизация на превод от мултиподписния адрес.</translation>
+    </message>
+    <message>
+        <source>&amp;Add Address / Key</source>
+        <translation>&amp;Добави Адрес / Ключ</translation>
+    </message>
+    <message>
+        <source>Local addresses or public keys that can sign:</source>
+        <translation>Локални адреси или публични ключове, които могат да подпишат:</translation>
+    </message>
+    <message>
+        <source>Create a new multisig address</source>
+        <translation>Създай нов мултиподписен адрес</translation>
+    </message>
+    <message>
+        <source>C&amp;reate</source>
+        <translation>Съ&amp;здай</translation>
+    </message>
+    <message>
+        <source>Status:</source>
+        <translation>Състояние</translation>
+    </message>
+    <message>
+        <source>Use below to quickly import an address by its redeem. Don't forget to add a label before clicking import!
+Keep in mind, the wallet will rescan the blockchain to find transactions containing the new address.
+Please be patient after clicking import.</source>
+        <translation>Използвайте долното за да импортираш адрес по погасяване. Не забравяйте да сложите и етикет преди да кликнете Импортирай!
+Помнете, че портфейла ще сканира целия блокчейн за да намери преводи съдържащи новият адрес.
+Бъдете търпеливи след старта на Импортирането.</translation>
+    </message>
+    <message>
+        <source>&amp;Import Redeem</source>
+        <translation>&amp;Импортирай Погасяване</translation>
+    </message>
+    <message>
+        <source>&amp;Create MultiSignature Tx</source>
+        <translation>&amp;Създай МултиПодписна Т-я</translation>
+    </message>
+    <message>
+        <source>Inputs:</source>
+        <translation>Входящи</translation>
+    </message>
+    <message>
+        <source>Coin Control</source>
+        <translation>Монетен контрол...</translation>
+    </message>
+    <message>
+        <source>Quantity Selected:</source>
+        <translation>Избратно Количество:</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Сума:</translation>
+    </message>
+    <message>
+        <source>Add an input to fund the outputs</source>
+        <translation>Добави вход. да захрани изходящите</translation>
+    </message>
+    <message>
+        <source>Add a Raw Input</source>
+        <translation>Добави Груб Вход.</translation>
+    </message>
+    <message>
+        <source>Address / Amount:</source>
+        <translation>Адрес / Сума:</translation>
+    </message>
+    <message>
+        <source>Add destinations to send POSQ to</source>
+        <translation>Добави получател на POSQ</translation>
+    </message>
+    <message>
+        <source>Add &amp;Destination</source>
+        <translation>Добави &amp;Получател</translation>
+    </message>
+    <message>
+        <source>Create a transaction object using the given inputs to the given outputs</source>
+        <translation>Създай преводен обект със зададените вход. към зададените изходи</translation>
+    </message>
+    <message>
+        <source>Cr&amp;eate</source>
+        <translation>Съ&amp;здай</translation>
+    </message>
+    <message>
+        <source>&amp;Sign MultiSignature Tx</source>
+        <translation>&amp;Подпиши МултиПодписна т-я</translation>
+    </message>
+    <message>
+        <source>Transaction Hex:</source>
+        <translation>Хекс на транзакцията:</translation>
+    </message>
+    <message>
+        <source>Sign the transaction from this wallet or from provided private keys</source>
+        <translation>Подпиши транзакцията от този портфейл или от зададения таен ключ</translation>
+    </message>
+    <message>
+        <source>S&amp;ign</source>
+        <translation>П&amp;одпиши</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DISABLED until transaction has been signed enough times.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ИЗКЛЮЧЕН докато превода се подпише нужния брой пъти.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>Co&amp;mmit</source>
+        <translation>Анга&amp;жирай</translation>
+    </message>
+    <message>
+        <source>Add private keys to sign the transaction with</source>
+        <translation>Добави тайни ключове, с които ще се подписва превода</translation>
+    </message>
+    <message>
+        <source>Add Private &amp;Key</source>
+        <translation>Добави Таен &amp;Ключ</translation>
+    </message>
+    <message>
+        <source>Sign with only private keys (Not Recommened)</source>
+        <translation>Подпиши със собствените тайни ключове (Не Се Препоръчва)</translation>
+    </message>
+    <message>
+        <source>Invalid Tx Hash.</source>
+        <translation>Грешен хаш на т-я.</translation>
+    </message>
+    <message>
+        <source>Vout position must be positive.</source>
+        <translation>VOUT позицията трябва да е положително число.</translation>
+    </message>
+    <message>
+        <source>Maximum possible addresses reached. (15)</source>
+        <translation>Достигнат е максималния брой адреси. (15)</translation>
+    </message>
+    <message>
+        <source>Vout Position: </source>
+        <translation>VOUT Позиция:</translation>
+    </message>
+    <message>
+        <source>Amount: </source>
+        <translation>Сума:</translation>
+    </message>
+    <message>
+        <source>Maximum (15)</source>
+        <translation>Максимум (15)</translation>
     </message>
 </context>
 <context>
@@ -1712,6 +1891,18 @@ https://www.transifex.com/posq-project/posq-project-translations</source>
 https://www.transifex.com/posq-project/posq-project-translations</translation>
     </message>
     <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Картографирай портовете използвайки &amp;UPnP</translation>
+    </message>
+    <message>
+        <source>Enable automatic minting of POSQ units to zPOSQ</source>
+        <translation>Включи автоматичното емитиране на POSQ единици в zPOSQ</translation>
+    </message>
+    <message>
+        <source>Enable zPOSQ Automint</source>
+        <translation>Включи Автоматично емитиране на zPOSQ</translation>
+    </message>
+    <message>
         <source>Percentage of incoming POSQ which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</source>
         <translation>Процент от входящите POSQ, който автоматично да се конвертира в zPOSQ посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
@@ -1726,6 +1917,10 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
     <message>
         <source>Preferred Automint zPOSQ Denomination</source>
         <translation>Предпочитани деноминации, в които да се сече автоматичен zPOSQ</translation>
+    </message>
+    <message>
+        <source>Stake split threshold:</source>
+        <translation>Праг на споделеното съхранение:</translation>
     </message>
     <message>
         <source>Connect to the POSQ network through a SOCKS5 proxy.</source>
@@ -1792,6 +1987,10 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Десетични единици</translation>
     </message>
     <message>
+        <source>Hide empty balances</source>
+        <translation>Скрий нулевите наличности</translation>
+    </message>
+    <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>Универсални web адреси (например блокчейн сонда), които се появяват в прозореца за преводи като контекстно меню. %s в URL координатите е заместено от преводния хаш. Множество URL координати биват отделени с вертикална линия |.</translation>
     </message>
@@ -1820,8 +2019,8 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>&amp;Отказ</translation>
     </message>
     <message>
-        <source>I don't care</source>
-        <translation>Все ми е едно</translation>
+        <source>Any</source>
+        <translation>Всеки</translation>
     </message>
     <message>
         <source>default</source>
@@ -1851,6 +2050,14 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <source>The supplied proxy address is invalid.</source>
         <translation>Невалиден прокси адрес.</translation>
     </message>
+    <message>
+        <source>The supplied proxy port is invalid.</source>
+        <translation>Зададения прокси порт е невалиден.</translation>
+    </message>
+    <message>
+        <source>The supplied proxy settings are invalid.</source>
+        <translation>Зададените прокси настройки не работят.</translation>
+    </message>
 </context>
 <context>
     <name>OverviewPage</name>
@@ -1859,16 +2066,20 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>От</translation>
     </message>
     <message>
-        <source>POSQ Balances</source>
-        <translation>POSQ Баланс</translation>
-    </message>
-    <message>
         <source>Available:</source>
         <translation>Налични:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
         <translation>Налични за харечене:</translation>
+    </message>
+    <message>
+        <source>Total Balance, including all unavailable coins.</source>
+        <translation>Обща Наличност, включително и неналичните монети.</translation>
+    </message>
+    <message>
+        <source>POSQ Balance</source>
+        <translation>POSQ Наличности</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -1887,8 +2098,44 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Възнаграждение от стейкване или мастърноуд, които все още не са узрели.</translation>
     </message>
     <message>
+        <source>Current locked balance in watch-only addresses</source>
+        <translation>Сегашния баланс по портфейли в режим на наблюдение само</translation>
+    </message>
+    <message>
+        <source>Your current POSQ balance, unconfirmed and immature transactions included</source>
+        <translation>Вашите POSQ наличности, включително непотвърдените и неузрели преводи</translation>
+    </message>
+    <message>
+        <source>zPOSQ Balance</source>
+        <translation>zPOSQ Наличности</translation>
+    </message>
+    <message>
+        <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
+These zPOSQ are spendable.</source>
+        <translation>Узрели: повече от 20 потвърждения и повече от 1 емисии от същата деноминация след като е била емитирана.
+Тези zPOSQ могат да се похарчат.</translation>
+    </message>
+    <message>
+        <source>Unconfirmed: less than 20 confirmations
+Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
+        <translation>Непотвърдени: по-малко от 20 потвърждения
+Неузрели: потвърдени, но с по-малко от 1 емисии от същата деноминация след като са биле емитирани</translation>
+    </message>
+    <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the POSQ network after a connection is established, but this process has not completed yet.</source>
         <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с POSQ мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+    </message>
+    <message>
+        <source>OVERVIEW</source>
+        <translation>ПРЕГЛЕД</translation>
+    </message>
+    <message>
+        <source>Combined Balance (including unconfirmed and immature coins)</source>
+        <translation>Комбинирани Наличности (включително непотвърдени и неузрели монети)</translation>
+    </message>
+    <message>
+        <source>Combined Balance</source>
+        <translation>Комбинирани Наличности</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1901,10 +2148,6 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
     <message>
         <source>Total:</source>
         <translation>Общо:</translation>
-    </message>
-    <message>
-        <source>Your current total balance</source>
-        <translation>Баланса по Вашата сметка в момента</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
@@ -1923,24 +2166,20 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Налични за харчене:</translation>
     </message>
     <message>
-        <source>Combined Balances (including immature coins)</source>
-        <translation>Комбиниран общ баланс (само озрелите монети)</translation>
+        <source>Locked POSQ or Masternode collaterals. These are excluded from zPOSQ minting.</source>
+        <translation>Заключен POSQ или допълнителни гаранции в Главни Възли. Тези не са включени в zPOSQ емитирането.</translation>
     </message>
     <message>
-        <source>POSQ:</source>
-        <translation>POSQ:</translation>
+        <source>Locked:</source>
+        <translation>Заключени:</translation>
     </message>
     <message>
-        <source>zPOSQ:</source>
-        <translation>zPOSQ:</translation>
+        <source>Unconfirmed:</source>
+        <translation>Непотвърден</translation>
     </message>
     <message>
-        <source>0 %</source>
-        <translation>0 %</translation>
-    </message>
-    <message>
-        <source>Zerocoin Balance</source>
-        <translation>Zerocoin баланс</translation>
+        <source>Your current zPOSQ balance, unconfirmed and immature zPOSQ included.</source>
+        <translation>Вашите zPOSQ наличности, включеително непотвърдените и неузрелите zPOSQ.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1949,6 +2188,20 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
     <message>
         <source>out of sync</source>
         <translation>не е синхронизиран</translation>
+    </message>
+    <message>
+        <source>AutoMint is currently enabled and set to </source>
+        <translation>АвтоЕмисията е включена и настроена на</translation>
+    </message>
+    <message>
+        <source>To disable AutoMint add 'enablezeromint=0' in posq.conf.</source>
+        <translation>Да изключите АвтоЕмисия добавете  'enablezeromint=0' в posq.conf файла.</translation>
+    </message>
+    <message>
+        <source>AutoMint is currently disabled.
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in posq.conf</source>
+        <translation>АвтоЕмисия е изключено.
+За да включите АвтоЕмисия сменете 'enablezeromint=0' на 'enablezeromint=1' в posq.conf файла.</translation>
     </message>
 </context>
 <context>
@@ -2060,24 +2313,12 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>POSQ which were anonymized via Zerocin Protocol</source>
-        <translation>POSQ скрити посредством Зерокойн протокола</translation>
-    </message>
-    <message>
-        <source>Zerocoin POSQ (zPOSQ)</source>
-        <translation>Zerocoin POSQ (zPOSQ)</translation>
-    </message>
-    <message>
         <source>Zerocoin Actions:</source>
         <translation>Zerocoin Действия:</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the POSQ network after a connection is established, but this process has not completed yet.</source>
         <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с POSQ мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
-    </message>
-    <message>
-        <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>Въведете колко POSQ  да се конвертират в zPOSQ</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2090,6 +2331,10 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
     <message>
         <source>zPOSQ</source>
         <translation>zPOSQ</translation>
+    </message>
+    <message>
+        <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
+        <translation>Наличните за емитиране са онези монети, които са биле потвърдени и не са заключени като гаранция в Главни Възли.</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
@@ -2132,11 +2377,19 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Състояния и/или Съобщения от последните действия по сечене на монети.</translation>
     </message>
     <message>
-        <source>zPhr Control</source>
+        <source>PRIVACY</source>
+        <translation>КОНФИДЕНЦИАЛНОСТ</translation>
+    </message>
+    <message>
+        <source>Enter an amount of Piv to convert to zPOSQ</source>
+        <translation>Въведете колко POSQ  да се конвертират в zPOSQ</translation>
+    </message>
+    <message>
+        <source>zPOSQ Control</source>
         <translation>zPOSQ Контрол</translation>
     </message>
     <message>
-        <source>zPhr Selected:</source>
+        <source>zPOSQ Selected:</source>
         <translation>Избрани zPOSQ:</translation>
     </message>
     <message>
@@ -2152,24 +2405,24 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Похарчи Zerocoin</translation>
     </message>
     <message>
+        <source>Available (mature and spendable) zPOSQ for spending</source>
+        <translation>Налични (узрели и готови за харчене) zPOSQ за употреба</translation>
+    </message>
+    <message>
         <source>Available Balance:</source>
         <translation>Налични:</translation>
     </message>
     <message>
+        <source>Available (mature and spendable) zPOSQ for spending
+
+zPOSQ are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Налични (узрели и готови за харчене) zPOSQ за употреба
+
+zPOSQ са узрели, тогава когато имат повече от 20 потвърждения И повече от 2 емисии от същата деноминация след като са биле емитирани</translation>
+    </message>
+    <message>
         <source>0 zPOSQ</source>
         <translation>0 zPOSQ</translation>
-    </message>
-    <message>
-        <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
-        <translation>Сигурност на Zerocoin Преводите. Повече - означава по-добра сигурност, но изисква повече време и ресурси.</translation>
-    </message>
-    <message>
-        <source>Security Level:</source>
-        <translation>Сигурност:</translation>
-    </message>
-    <message>
-        <source>Security Level 1 - 100 (default: 42)</source>
-        <translation>Ниво на Сигурност 1 - 100 (42 по подразбиране)</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2228,12 +2481,12 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Zerocoin статистика:</translation>
     </message>
     <message>
-        <source>Available Funds</source>
-        <translation>Налични средства</translation>
+        <source>Total Balance including unconfirmed and immature zPOSQ</source>
+        <translation>Обща Наличност включеително непотвърдените и неузрели zPOSQ</translation>
     </message>
     <message>
-        <source>Available Zerocoin  Balance:</source>
-        <translation>Наличен Zerocoin баланс:</translation>
+        <source>Total Zerocoin  Balance:</source>
+        <translation>Обща Zeroicoin наличност:</translation>
     </message>
     <message>
         <source>Denominations with value 1:</source>
@@ -2242,6 +2495,73 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
     <message>
         <source>Denom. with value 1:</source>
         <translation>Деном. със стойност 1:</translation>
+    </message>
+    <message>
+        <source>Unconfirmed: less than 20 confirmations
+Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
+        <translation>Непотвърдени: по-малко от 20 потвърждения
+Неузрели: потвърдени, но с по-малко от 1 емисии от същата деноминация след като са биле емитирани</translation>
+    </message>
+    <message>
+        <source>Show the current status of automatic zPOSQ minting.
+
+To change the status (restart required):
+- enable: add 'enablezeromint=1' to posq.conf
+- disable: add 'enablezeromint=0' to posq.conf
+
+To change the percentage (no restart required):
+- menu Settings-&gt;Options-&gt;Percentage of autominted zPOSQ
+
+</source>
+        <translation>Покажи състоянието на автоматичното zPOSQ емитиране.
+
+За да пормените състоянието (изисква рестарт):
+- вклчване: добавете 'enablezeromint=1' в posq.conf
+- изключване: добавете 'enablezeromint=0' в posq.conf
+
+За промяна в процентите (не изисква рестарт):
+- меню Настройки -&gt; Опции -&gt; Процент на автоемитиран zPOSQ
+</translation>
+    </message>
+    <message>
+        <source>AutoMint Status</source>
+        <translation>Състояние АвтоЕмисия</translation>
+    </message>
+    <message>
+        <source>Global Supply:</source>
+        <translation>Глобални наличности:</translation>
+    </message>
+    <message>
+        <source>Denom. 1:</source>
+        <translation>Деном. със стойност 1:</translation>
+    </message>
+    <message>
+        <source>Denom. 5:</source>
+        <translation>Деном. със стойност 5:</translation>
+    </message>
+    <message>
+        <source>Denom. 10:</source>
+        <translation>Деном. със стойност от 10:</translation>
+    </message>
+    <message>
+        <source>Denom. 50:</source>
+        <translation>Деном. със стойност от 50:</translation>
+    </message>
+    <message>
+        <source>Denom. 100:</source>
+        <translation>Деном. със стойност от 100:</translation>
+    </message>
+    <message>
+        <source>Denom. 500:</source>
+        <translation>Деном. със стойност от 500:</translation>
+    </message>
+    <message>
+        <source>Denom. 1000:</source>
+        <translation>Деном. със стойност от 1000:</translation>
+    </message>
+    <message>
+        <source>Denom. 5000:</source>
+        <translation>Деном. със стойност от 5000:</translation>
     </message>
     <message>
         <source>0 x</source>
@@ -2304,12 +2624,12 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Деном. със стойност от 5000:</translation>
     </message>
     <message>
-        <source>Note: This hidden objects are used for communication between the 'Coin Control' dialog and its parent objects. We don't want to change/reimplement the existing Coin Control, so this objects must be here, even when we don't use them. No, we don't like this approach, either.</source>
-        <translation>Внимание: Тези скрити обекти служат за общуване между "Монетен Контрол" прозореца и неговите предходни елементи. Не е удачно да проемняме Монетен Контрол, така че тези елементи са тук, въпреки, че не се използват. Не ни харесва и на нас, но няма как.</translation>
-    </message>
-    <message>
         <source>Priority:</source>
         <translation>Приоритет:</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>ТекстовЕтикет</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -2337,7 +2657,7 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>средно</translation>
+        <translation>среден</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2376,8 +2696,112 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
         <translation>Копирай сумата</translation>
     </message>
     <message>
-        <source>Zerocoin functionality is not enabled on the POSQ network yet.</source>
-        <translation>Zerocoin функцията все още не е активирана в POSQ мрежата.</translation>
+        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
+Please be patient...</source>
+        <translation>Стартиране на ResetMintZerocoin: сканираме цялия блокчейн, това ще изисква около 30 минути, в зависимост от вашия компютър.
+Моля изчакате...</translation>
+    </message>
+    <message>
+        <source>) needed.
+Maximum allowed: </source>
+        <translation>) нужни.
+Максимум позволени:</translation>
+    </message>
+    <message>
+        <source>zPOSQ Spend #: </source>
+        <translation>zPOSQ Похарчени #:</translation>
+    </message>
+    <message>
+        <source>zPOSQ Mint</source>
+        <translation>Сечене на zPOSQ</translation>
+    </message>
+    <message>
+        <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
+        <translation>&lt;b&gt;включено&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source> &lt;b&gt;disabled&lt;/b&gt;.</source>
+        <translation>&lt;b&gt;изключено&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source> Configured target percentage: &lt;b&gt;</source>
+        <translation>Конфигуриран целеви процент: &lt;b&gt;</translation>
+    </message>
+    <message>
+        <source>zPOSQ is currently disabled due to maintenance.</source>
+        <translation>В момента zPOSQ не работи поради ремонт.</translation>
+    </message>
+    <message>
+        <source>zPOSQ is currently undergoing maintenance.</source>
+        <translation>В момента zPOSQ е в ремонт.</translation>
+    </message>
+    <message>
+        <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
+        <translation>Деном. със стойност &lt;b&gt;1&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. with value &lt;b&gt;5&lt;/b&gt;:</source>
+        <translation>Деном. със стойност &lt;b&gt;5&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. with value &lt;b&gt;10&lt;/b&gt;:</source>
+        <translation>Деном. със стойност от &lt;b&gt;10&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. with value &lt;b&gt;50&lt;/b&gt;:</source>
+        <translation>Деном. със стойност от &lt;b&gt;50&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. with value &lt;b&gt;100&lt;/b&gt;:</source>
+        <translation>Деном. със стойност от &lt;b&gt;100&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. with value &lt;b&gt;500&lt;/b&gt;:</source>
+        <translation>Деном. със стойност от &lt;b&gt;500&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. with value &lt;b&gt;1000&lt;/b&gt;:</source>
+        <translation>Деном. със стойност от &lt;b&gt;1000&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. with value &lt;b&gt;5000&lt;/b&gt;:</source>
+        <translation>Деном. със стойност от &lt;b&gt;5000&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>AutoMint Status:</source>
+        <translation>Състояние АвтоЕмисия:</translation>
+    </message>
+    <message>
+        <source>Denom. &lt;b&gt;1&lt;/b&gt;:</source>
+        <translation>Деноминация. &lt;b&gt;1&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. &lt;b&gt;5&lt;/b&gt;:</source>
+        <translation>Деноминация.  &lt;b&gt;5&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. &lt;b&gt;10&lt;/b&gt;:</source>
+        <translation>Деноминация. &lt;b&gt;10&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. &lt;b&gt;50&lt;/b&gt;:</source>
+        <translation>Деноминация. &lt;b&gt;50&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. &lt;b&gt;100&lt;/b&gt;:</source>
+        <translation>Деноминация. &lt;b&gt;100&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. &lt;b&gt;500&lt;/b&gt;:</source>
+        <translation>Деноминация. &lt;b&gt;500&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. &lt;b&gt;1000&lt;/b&gt;:</source>
+        <translation>Деноминация. &lt;b&gt;1000&lt;/b&gt;:</translation>
+    </message>
+    <message>
+        <source>Denom. &lt;b&gt;5000&lt;/b&gt;:</source>
+        <translation>Деноминация. &lt;b&gt;5000&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2404,12 +2828,6 @@ https://www.transifex.com/posq-project/posq-project-translations</translation>
 </source>
         <translation>сек. Използвани деноминации:
 </translation>
-    </message>
-    <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
-Please be patient...</source>
-        <translation>Стартиране на ResetMintZerocoin: сканираме цялия блокчейн, това ще изисква около 30 минути, в зависимост от вашия компютър.
-Моля изчакате...</translation>
     </message>
     <message>
         <source>Duration: </source>
@@ -2450,32 +2868,30 @@ Please be patient...</source>
         <translation>на адрес</translation>
     </message>
     <message>
-        <source> to a newly generated (unused and therefor anonymous) local address &lt;br /&gt;</source>
+        <source> to a newly generated (unused and therefore anonymous) local address &lt;br /&gt;</source>
         <translation>на ново-генериран (неизползван до сега и поради това - анонимен) локален адрес &lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>with Security Level </source>
-        <translation>с Ниво на Сигурност</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
         <translation>Потвърждаване на изпращането</translation>
     </message>
     <message>
-        <source>Spending Zerocoin.
-Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
-Please be patient...</source>
-        <translation>Харчене на Zerocoin.
-Математически скъп превод, който може да има нужда от няколко минути за потвърждение, в зависимост от избраното Ниво на Сигурност и Вашият хардуер.
-Моля проявете търпение...</translation>
+        <source>Failed to fetch mint associated with serial hash</source>
+        <translation>Неуспешно извличане на мента, свързана със сериен хеш</translation>
+    </message>
+    <message>
+        <source>Too much inputs (</source>
+        <translation>Твърде много входящи (</translation>
+    </message>
+    <message>
+        <source>
+Either mint higher denominations (so fewer inputs are needed) or reduce the amount to spend.</source>
+        <translation>
+Или емитирайте по-големи деноминации (за да се ползват по малко входящи) или намалете сумата за плащане.</translation>
     </message>
     <message>
         <source>Spend Zerocoin failed with status = </source>
         <translation>Харченето на Zerocoin се провали със статус =</translation>
-    </message>
-    <message>
-        <source>zPhr Spend #: </source>
-        <translation>zPOSQ Похарчени #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2498,10 +2914,6 @@ Please be patient...</source>
         <translation>адрес:</translation>
     </message>
     <message>
-        <source>zPhr Mint</source>
-        <translation>Сечене на zPOSQ</translation>
-    </message>
-    <message>
         <source>Sending successful, return code: </source>
         <translation>Изпращането успешно, програмен код: </translation>
     </message>
@@ -2514,6 +2926,9 @@ Please be patient...</source>
         <translation>такса:</translation>
     </message>
 </context>
+<context>
+    <name>ProposalFrame</name>
+    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -2564,7 +2979,11 @@ Please be patient...</source>
         <source>%1 ms</source>
         <translation>%1 милисек.</translation>
     </message>
-</context>
+    <message>
+        <source>POSQ Core</source>
+        <translation>POSQ Ядро</translation>
+    </message>
+    </context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -2699,8 +3118,16 @@ Please be patient...</source>
         <translation>&amp;Пиъри</translation>
     </message>
     <message>
+        <source>Banned peers</source>
+        <translation>Забранени пиъри</translation>
+    </message>
+    <message>
         <source>Select a peer to view detailed information.</source>
         <translation>Изберете пиър за повече детайли</translation>
+    </message>
+    <message>
+        <source>Whitelisted</source>
+        <translation>Бял лист</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -2717,14 +3144,6 @@ Please be patient...</source>
     <message>
         <source>Services</source>
         <translation>Услуги</translation>
-    </message>
-    <message>
-        <source>Starting Height</source>
-        <translation>Начална Височина</translation>
-    </message>
-    <message>
-        <source>Sync Height</source>
-        <translation>Синхронизирана Височина</translation>
     </message>
     <message>
         <source>Ban Score</source>
@@ -2759,8 +3178,48 @@ Please be patient...</source>
         <translation>&amp;Поправка на портфейла</translation>
     </message>
     <message>
+        <source>Delete local Blockchain Folders</source>
+        <translation>Изтрий локалните папки на Блокчейна</translation>
+    </message>
+    <message>
         <source>Wallet In Use:</source>
         <translation>Портфейл в употреба:</translation>
+    </message>
+    <message>
+        <source>Starting Block</source>
+        <translation>Начален Блок</translation>
+    </message>
+    <message>
+        <source>Synced Headers</source>
+        <translation>Синхронизирани Заглавия</translation>
+    </message>
+    <message>
+        <source>Synced Blocks</source>
+        <translation>Синхронизирани Блокове</translation>
+    </message>
+    <message>
+        <source>The duration of a currently outstanding ping.</source>
+        <translation>Времетраенето на незавършен пинг.</translation>
+    </message>
+    <message>
+        <source>Ping Wait</source>
+        <translation>Пинг Изчакване</translation>
+    </message>
+    <message>
+        <source>Time Offset</source>
+        <translation>Времево отлагане</translation>
+    </message>
+    <message>
+        <source>Custom Backup Path:</source>
+        <translation>Персонален резервен път:</translation>
+    </message>
+    <message>
+        <source>Custom zPOSQ Backup Path:</source>
+        <translation>Персонализиран zPOSQ резервен път:</translation>
+    </message>
+    <message>
+        <source>Custom Backups Threshold:</source>
+        <translation>Праг на персонализирани резервни копия:</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
@@ -2803,6 +3262,14 @@ Please be patient...</source>
         <translation>Изградни повторно индекса на блокчена от сегашните blk000??.dat файлове.</translation>
     </message>
     <message>
+        <source>-resync:</source>
+        <translation>-ресинх:</translation>
+    </message>
+    <message>
+        <source>Deletes all local blockchain folders so the wallet synchronizes from scratch.</source>
+        <translation>Изтрий всички локални папки на блокчейна, така че портфейла да се синхронизира от самото начало.</translation>
+    </message>
+    <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
         <translation>Копчетета долу ще рестартират портфейла с възможност за ремонт на портфейла посредствим командната линия. Случи за поправка на проблеми с увредени блокчейн файлове или липсващи/остарели транзакции.</translation>
     </message>
@@ -2831,8 +3298,52 @@ Please be patient...</source>
         <translation>Добре Дошли в RPC конзолата на POSQ.</translation>
     </message>
     <message>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Използвайте стрелките за на доре и на долу, за да разгледате историята и &lt;b&gt;Ctrol-L&lt;/b&gt;за да изчистите екрана.</translation>
+        <source>&amp;Disconnect Node</source>
+        <translation>&amp;Изключи Възела</translation>
+    </message>
+    <message>
+        <source>Ban Node for</source>
+        <translation>Забрани Възела за</translation>
+    </message>
+    <message>
+        <source>1 &amp;hour</source>
+        <translation>1&amp;час</translation>
+    </message>
+    <message>
+        <source>1 &amp;day</source>
+        <translation>1&amp;ден</translation>
+    </message>
+    <message>
+        <source>1 &amp;week</source>
+        <translation>1&amp;седмица</translation>
+    </message>
+    <message>
+        <source>1 &amp;year</source>
+        <translation>1&amp;година</translation>
+    </message>
+    <message>
+        <source>&amp;Unban Node</source>
+        <translation>&amp;Разреши възела</translation>
+    </message>
+    <message>
+        <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Това ще истрие Вашите локални блокчейн папки и портфейла ще се синхронизира с целия блокчейн от самото начало.</translation>
+    </message>
+    <message>
+        <source>This needs quite some time and downloads a lot of data.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Това изисква доста време и тегленето на много данни. &lt;br /&gt;&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>Your transactions and funds will be visible again after the download has completed.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Вашите преводи и средства ще бъдат видими отново след като тегленето приключи. &lt;br /&gt;&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>Do you want to continue?.&lt;br /&gt;</source>
+        <translation>Сигурни ли сте, че желаете да изпратите? &lt;br /&gt;&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>Confirm resync Blockchain</source>
+        <translation>Потвърдете ресинх на Блокчейна</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -2855,6 +3366,10 @@ Please be patient...</source>
         <translation>%1 ГБ</translation>
     </message>
     <message>
+        <source>(node id: %1)</source>
+        <translation>(възлова идентификация: %1)</translation>
+    </message>
+    <message>
         <source>via %1</source>
         <translation>през %1</translation>
     </message>
@@ -2871,12 +3386,16 @@ Please be patient...</source>
         <translation>Изходящи</translation>
     </message>
     <message>
-        <source>Unknown</source>
-        <translation>Непознат</translation>
+        <source>Yes</source>
+        <translation>Да</translation>
     </message>
     <message>
-        <source>Fetching...</source>
-        <translation>Прихващане...</translation>
+        <source>No</source>
+        <translation>Не</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Непознат</translation>
     </message>
 </context>
 <context>
@@ -2898,8 +3417,16 @@ Please be patient...</source>
         <translation>Незадължителен етикет, който да асоциираме с адреса за получаване.</translation>
     </message>
     <message>
+        <source>A&amp;mount:</source>
+        <translation>Сума:</translation>
+    </message>
+    <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the POSQ network.</source>
         <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по POSQ мрежата.</translation>
+    </message>
+    <message>
+        <source>RECEIVE</source>
+        <translation>ПОЛУЧИ</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the POSQ network.</source>
@@ -2916,10 +3443,6 @@ Please be patient...</source>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
         <translation>Незадължителна сума за поискване. Оставете полето празно или напишете нула, за да не изисквате определена сума.</translation>
-    </message>
-    <message>
-        <source>&amp;Amount:</source>
-        <translation>&amp;Сума:</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
@@ -2964,6 +3487,10 @@ Please be patient...</source>
     <message>
         <source>Copy amount</source>
         <translation>Копирай сумата</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Копирай адрес</translation>
     </message>
 </context>
 <context>
@@ -3036,6 +3563,10 @@ Please be patient...</source>
         <translation>Съобщение</translation>
     </message>
     <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
         <source>Amount</source>
         <translation>Сума</translation>
     </message>
@@ -3059,12 +3590,16 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
+        <source>SEND</source>
+        <translation>ИЗПРАТИ</translation>
+    </message>
+    <message>
         <source>Coin Control Features</source>
         <translation>Насйтройки Монетен Контрол</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Средсвтата ви не достигат!</translation>
+        <translation>Средсвтата Ви не достигат!</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -3084,7 +3619,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>medium</source>
-        <translation>средно</translation>
+        <translation>среден</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -3167,6 +3702,10 @@ Please be patient...</source>
         <translation>(Умната такса не е инициализирана все още. Това изисква по няколко блока...)</translation>
     </message>
     <message>
+        <source>SwiftX</source>
+        <translation>SwiftX</translation>
+    </message>
+    <message>
         <source>Confirmation time:</source>
         <translation>Време на потвърждение:</translation>
     </message>
@@ -3224,7 +3763,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Изчисти &amp;All</translation>
+        <translation>Изчисти &amp;Всички</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -3237,10 +3776,6 @@ Please be patient...</source>
     <message>
         <source>Anonymized POSQ</source>
         <translation>Анонимизиран POSQ</translation>
-    </message>
-    <message>
-        <source>SwiftTX</source>
-        <translation>SwiftTX</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3287,24 +3822,8 @@ Please be patient...</source>
         <translation>Инструмента за разделяне на блока не работи, когато се изпраща до няколко адреса едновременно. Опитайте пак.</translation>
     </message>
     <message>
-        <source>using</source>
-        <translation>използва</translation>
-    </message>
-    <message>
-        <source>anonymous funds</source>
-        <translation>анонимни средства</translation>
-    </message>
-    <message>
         <source>Warning: Invalid POSQ address</source>
         <translation>Предупреждение: Невалиден POSQ адрес</translation>
-    </message>
-    <message>
-        <source>any available funds (not recommended)</source>
-        <translation>всички налични средства (не се препоръчва)</translation>
-    </message>
-    <message>
-        <source>and SwiftTX</source>
-        <translation>и SwiftTX</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3330,13 +3849,13 @@ Please be patient...</source>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
         <translation>Такса %1 пъти по-голяма от %2 за кБ се счита неразумно голяма такса.</translation>
     </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Очаквано начало на потвърждения след %n блока.</numerusform><numerusform>Очаквано начало на потвърждения след %n блока.</numerusform></translation>
-    </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>Адреса на получателя е недвалиден. Моля преверете.</translation>
+    </message>
+    <message>
+        <source>using SwiftX</source>
+        <translation>използвайки SwiftX</translation>
     </message>
     <message>
         <source> split into %1 outputs using the UTXO splitter.</source>
@@ -3545,7 +4064,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Изчисти &amp;All</translation>
+        <translation>Изчисти &amp;Всички</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
@@ -3652,10 +4171,6 @@ Please be patient...</source>
 </context>
 <context>
     <name>TransactionDesc</name>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Отворен за още %n блока</numerusform><numerusform>Отворен за още %n блока</numerusform></translation>
-    </message>
     <message>
         <source>Open until %1</source>
         <translation>Отворен до %1</translation>
@@ -3663,18 +4178,6 @@ Please be patient...</source>
     <message>
         <source>conflicted</source>
         <translation>конфликтен</translation>
-    </message>
-    <message>
-        <source>%1/offline (verified via swifttx)</source>
-        <translation>%1 офлайн (потвърдени чрез swiftTx)</translation>
-    </message>
-    <message>
-        <source>%1/confirmed (verified via swifttx)</source>
-        <translation>%1 потвърдени (потвърдени чрез swiftTx)</translation>
-    </message>
-    <message>
-        <source>%1 confirmations (verified via swifttx)</source>
-        <translation>%1 потвърждения (потвърдени чрез swiftTx)</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -3689,23 +4192,35 @@ Please be patient...</source>
         <translation>%1 потвърждения</translation>
     </message>
     <message>
-        <source>%1/offline (SwiftTX verification in progress - %2 of %3 signatures)</source>
+        <source>%1/offline (verified via SwiftX)</source>
+        <translation>%1 офлайн (потвърдени чрез swiftTx)</translation>
+    </message>
+    <message>
+        <source>%1/confirmed (verified via SwiftX)</source>
+        <translation>%1 потвърдени (потвърдени чрез swiftTx)</translation>
+    </message>
+    <message>
+        <source>%1 confirmations (verified via SwiftX)</source>
+        <translation>%1 потвърждения (потвърдени чрез swiftTx)</translation>
+    </message>
+    <message>
+        <source>%1/offline (SwiftX verification in progress - %2 of %3 signatures)</source>
         <translation>%1/офлайн (SwiftTX потвърждение в процес - %2 от %3 подписа)</translation>
     </message>
     <message>
-        <source>%1/confirmed (SwiftTX verification in progress - %2 of %3 signatures )</source>
+        <source>%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )</source>
         <translation>%1/потвърдени (SwiftTX потвърждение в процес - %2 от %3 подписа)</translation>
     </message>
     <message>
-        <source>%1 confirmations (SwiftTX verification in progress - %2 of %3 signatures)</source>
+        <source>%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)</source>
         <translation>%1 потвърждения  (SwiftTX потвърждение в процес - %2 от %3 подписа)</translation>
     </message>
     <message>
-        <source>%1/offline (SwiftTX verification failed)</source>
+        <source>%1/offline (SwiftX verification failed)</source>
         <translation>%1/офлайн (Неуспешно SwiftTX потвърждние)</translation>
     </message>
     <message>
-        <source>%1/confirmed (SwiftTX verification failed)</source>
+        <source>%1/confirmed (SwiftX verification failed)</source>
         <translation>%1/потвърдени (Неуспешно SwiftTX потвърждние)</translation>
     </message>
     <message>
@@ -3715,10 +4230,6 @@ Please be patient...</source>
     <message>
         <source>, has not been successfully broadcast yet</source>
         <translation>, все още неуспешно обявени</translation>
-    </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, обявени през %n нода</numerusform><numerusform>, обявени през %n нода</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
@@ -3759,10 +4270,6 @@ Please be patient...</source>
     <message>
         <source>Credit</source>
         <translation>Кредит</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>узрява след още %n блока</numerusform><numerusform>узрява след още %n блока</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -3862,10 +4369,6 @@ Please be patient...</source>
         <source>Address</source>
         <translation>Адрес</translation>
     </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Отворен за още %n блока</numerusform><numerusform>Отворен за още %n блока</numerusform></translation>
-    </message>
     <message>
         <source>Open until %1</source>
         <translation>Отворен до %1</translation>
@@ -3915,6 +4418,14 @@ Please be patient...</source>
         <translation>Получен посредством обфускация</translation>
     </message>
     <message>
+        <source>POSQ Stake</source>
+        <translation>POSQ Stake</translation>
+    </message>
+    <message>
+        <source>zPOSQ Stake</source>
+        <translation>zPOSQ Stake</translation>
+    </message>
+    <message>
         <source>Obfuscation Denominate</source>
         <translation>Деноминация на обфускация</translation>
     </message>
@@ -3931,6 +4442,34 @@ Please be patient...</source>
         <translation>Обфускация и направа на Деноминации</translation>
     </message>
     <message>
+        <source>Converted POSQ to zPOSQ</source>
+        <translation>Конвертиран POSQ във zPOSQ</translation>
+    </message>
+    <message>
+        <source>Spent zPOSQ</source>
+        <translation>Похарчени zPOSQ</translation>
+    </message>
+    <message>
+        <source>Received POSQ from zPOSQ</source>
+        <translation>Получен POSQ от zPOSQ</translation>
+    </message>
+    <message>
+        <source>Minted Change as zPOSQ from zPOSQ Spend</source>
+        <translation>Исечено ресто като zPOSQ от похарчените zPOSQ</translation>
+    </message>
+    <message>
+        <source>Converted zPOSQ to POSQ</source>
+        <translation>Конвертиран zPOSQ във POSQ</translation>
+    </message>
+    <message>
+        <source>Anonymous (zPOSQ Transaction)</source>
+        <translation>Анонимен (транзакция zPOSQ)</translation>
+    </message>
+    <message>
+        <source>Anonymous (zPOSQ Stake)</source>
+        <translation>Анонимен (zPOSQ Stake)</translation>
+    </message>
+    <message>
         <source>Sent to</source>
         <translation>Изпратени до</translation>
     </message>
@@ -3943,10 +4482,6 @@ Please be patient...</source>
         <translation>Плащане до себе си</translation>
     </message>
     <message>
-        <source>Minted</source>
-        <translation>Изсечени</translation>
-    </message>
-    <message>
         <source>Mined</source>
         <translation>Изсечени</translation>
     </message>
@@ -3955,32 +4490,8 @@ Please be patient...</source>
         <translation>Обфускирани</translation>
     </message>
     <message>
-        <source>Converted Phr to zPhr</source>
-        <translation>Конвертиран POSQ във zPOSQ</translation>
-    </message>
-    <message>
-        <source>Spent zPhr</source>
-        <translation>Похарчени zPOSQ</translation>
-    </message>
-    <message>
-        <source>Received Phr from zPhr</source>
-        <translation>Получен POSQ от zPOSQ</translation>
-    </message>
-    <message>
-        <source>Minted Change as zPhr from zPhr Spend</source>
-        <translation>Исечено ресто като zPOSQ от похарчените zPOSQ</translation>
-    </message>
-    <message>
-        <source>Converted zPhr to Phr</source>
-        <translation>Конвертирани zPOSQ в POSQ</translation>
-    </message>
-    <message>
         <source>watch-only</source>
         <translation>наблюдение само</translation>
-    </message>
-    <message>
-        <source>zPhr Accumulator</source>
-        <translation>zPOSQ Акумулатор</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -3997,6 +4508,10 @@ Please be patient...</source>
     <message>
         <source>Type of transaction.</source>
         <translation>Вид на превода.</translation>
+    </message>
+    <message>
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>Дали адрес, който е само за наблюдение ще бъде въвлечен в превода или не.</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
@@ -4050,32 +4565,12 @@ Please be patient...</source>
         <translation>Изпратени до</translation>
     </message>
     <message>
-        <source>Obfuscated</source>
-        <translation>Обфускирани</translation>
-    </message>
-    <message>
-        <source>Obfuscation Make Collateral Inputs</source>
-        <translation>Обфускация на Направени входящи Залози</translation>
-    </message>
-    <message>
-        <source>Obfuscation Create Denominations</source>
-        <translation>Обфускация и направа на Деноминации</translation>
-    </message>
-    <message>
-        <source>Obfuscation Denominate</source>
-        <translation>Деноминация на обфускация</translation>
-    </message>
-    <message>
-        <source>Obfuscation Collateral Payment</source>
-        <translation>Обфускация на на Платежен Залог</translation>
-    </message>
-    <message>
         <source>To yourself</source>
         <translation>Към себе си</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Изкопани</translation>
+        <translation>Изсечени</translation>
     </message>
     <message>
         <source>Minted</source>
@@ -4086,20 +4581,12 @@ Please be patient...</source>
         <translation>Мастърноуд възнаграждение</translation>
     </message>
     <message>
-        <source>Received Phr from zPhr</source>
-        <translation>Получен POSQ от zPOSQ</translation>
-    </message>
-    <message>
         <source>Zerocoin Mint</source>
         <translation>Сечене на Zerocoin</translation>
     </message>
     <message>
         <source>Zerocoin Spend</source>
         <translation>Харчене на Zerocoin</translation>
-    </message>
-    <message>
-        <source>Zerocoin Spend, Change in zPhr</source>
-        <translation>Харчене на Zerocoin, Ресто в zPOSQ</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4182,8 +4669,24 @@ Please be patient...</source>
         <translation>Експортирането провалено</translation>
     </message>
     <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Получи се грешка при опита да се запази преводната история в %1.</translation>
+    </message>
+    <message>
         <source>Exporting Successful</source>
         <translation>Експортирането Успешно</translation>
+    </message>
+    <message>
+        <source>Received POSQ from zPOSQ</source>
+        <translation>Получен POSQ от zPOSQ</translation>
+    </message>
+    <message>
+        <source>Zerocoin Spend, Change in zPOSQ</source>
+        <translation>Харчене на Zerocoin, Ресто в zPOSQ</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>Преводната история бе успешно запазена в %1.</translation>
     </message>
     <message>
         <source>Range:</source>
@@ -4215,12 +4718,16 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 POSQ.</source>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 POSQ.</source>
         <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 POSQ.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>HISTORY</source>
+        <translation>ИСТОРИЯ</translation>
+    </message>
     <message>
         <source>&amp;Export</source>
         <translation>&amp;Експортиране</translation>
@@ -4241,27 +4748,11 @@ Please be patient...</source>
         <source>Wallet Data (*.dat)</source>
         <translation>Wallet Data формат (*.dat)</translation>
     </message>
-    <message>
-        <source>Backup Failed</source>
-        <translation>Неуспешно създаване на резерва</translation>
-    </message>
-    <message>
-        <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Получи се грешка при опита да се запазят данните на портфейла в %1.</translation>
-    </message>
-    <message>
-        <source>Backup Successful</source>
-        <translation>Успешно създаване на резерва</translation>
-    </message>
-    <message>
-        <source>The wallet data was successfully saved to %1.</source>
-        <translation>Данните за портфейла бяха успенш записани в %1.</translation>
-    </message>
 </context>
 <context>
-    <name>ZPhrControlDialog</name>
+    <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPhr to Spend</source>
+        <source>Select zPOSQ to Spend</source>
         <translation>Изберете zPOSQ за Изпращане</translation>
     </message>
     <message>
@@ -4273,20 +4764,44 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPhr</source>
+        <source>zPOSQ</source>
         <translation>zPOSQ</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
         <translation>Избери/Премахни Всички</translation>
     </message>
-    <message>
-        <source>Is Spendable</source>
-        <translation>В Налични за харечене</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>posq-core</name>
+    <message>
+        <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
+        <translation>(1 = пази мета данните от преводи, например собственик на акаунта и ифнормация за изисквани плащания, 2 = изхръвли мета данните от преводи)</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+        <translation>Позволи JSON-RPC свръзки от зададения източник. Валидно е за &lt;ip&gt; с единичен IP (напр. 1.2.3.4), мрежа/netmask (напр. 1.2.3.4/255.255.255.0) или мрежа/CIDR (напр. 1.2.3.4/24). Тази опция може да се зададе множество пъти.</translation>
+    </message>
+    <message>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Закачи се към дадения адрес и винаги слушай по него. Използвайте [host]:port нотация за IPv6.</translation>
+    </message>
+    <message>
+        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
+        <translation>Прикачи се към зададения адрес на пиъри вв белия списък, като се свържеш с него. Използвайте [host]:port notation for IPv6</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
+        <translation>Прикачи се към зададения адрес за слушане на JSON-RPC връзки. Използвайте [host]:port notation for IPv6. Тази опция може да се зададе множество пъти (по подразбиране: прикачва се към всички итнерфейси)</translation>
+    </message>
+    <message>
+        <source>Calculated accumulator checkpoint is not what is recorded by block index</source>
+        <translation>Изчисления чекпойнт на акумулатора не е същия като записания в блок индекса.</translation>
+    </message>
+    <message>
+        <source>Cannot obtain a lock on data directory %s. POSQ Core is probably already running.</source>
+        <translation>Не може да заключи папката с данни %s. POSQ Портфейла вероятно вече е стартиран.</translation>
+    </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
         <translation>Промяна на поведението на автоматично финализираното гласоподаване. mode=auto: Гласувай само за точни финализирани бюджети, които съвпадат с моят генериран бюджет. (string, default:auto)</translation>
@@ -4304,20 +4819,24 @@ Please be patient...</source>
         <translation>Изтрий всички преводи от портфейла и възстанови само тези части от блокчейна - сканира при стартиране.</translation>
     </message>
     <message>
-        <source>Disable all POSQ specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключи всякаква POSQ функционалност (Мастърноудове, Обфускация, SwiftTX, Бюджетиране) (0-1 default: %u)</translation>
+        <source>Delete all zerocoin spends and mints that have been recorded to the blockchain database and reindex them (0-1, default: %u)</source>
+        <translation>Изтрийте всички разходи за нулево злато и монетните дворове, които са записани в блока за блокиране и ги възстановете (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Разпространява се пот MIT софтуерен лиценз, виж съпровождащия файл от &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable spork administration functionality with the appropriate private key.</source>
-        <translation>Включете функцията за spork администрация с подходящия личен ключ.</translation>
+        <source>Enable or disable staking functionality for POSQ inputs (0-1, default: %u)</source>
+        <translation>Активиране или деактивиране на функцията за зареждане за POSQ входове (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Enable swifttx, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Включи SwiftTX, показвай потвърждения за заключени преводи (bool, default: %s)</translation>
+        <source>Enable or disable staking functionality for zPOSQ inputs (0-1, default: %u)</source>
+        <translation>Активиране или деактивиране на функцията за зареждане за zPOSQ входове (0-1, по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Enable spork administration functionality with the appropriate private key.</source>
+        <translation>Включете функцията за spork администрация с подходящия личен ключ.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -4326,6 +4845,10 @@ Please be patient...</source>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Грешка: Провал в търсенето на входящи свръзки (listen returned error %s)</translation>
+    </message>
+    <message>
+        <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
+        <translation>Грешка: Превода е по-голяма от позволения размер за транзакции!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -4366,6 +4889,10 @@ Please be patient...</source>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
         <translation>В този режим -genproclimit контролира колко блока се генерират на момента.</translation>
+    </message>
+    <message>
+        <source>Insufficient or insufficient confirmed funds, you might need to wait a few minutes and try again.</source>
+        <translation>Недостатъчни или недостатъчно-потвърдени средства. Може да се наложи да изчакате няколко минути преди да опитате отново.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
@@ -4440,16 +4967,228 @@ Please be patient...</source>
         <translation>Поддържай филтрирането на блокове и преводи с bloom филтри (default: %u)</translation>
     </message>
     <message>
-        <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>SwiftTX изисква входящи преводи с поне 6 потвърждения. Може да се наложи да изчакате още преди да опитате отново.</translation>
-    </message>
-    <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Този продукт включва софтуер разработен от OpenSSL Project &lt;https://www.openssl.org/&gt; и крипто софтуер написан от Ерик Юнг и UPnP софтуер от Томас Бернард.</translation>
     </message>
     <message>
+        <source>Unable to bind to %s on this computer. POSQ Core is probably already running.</source>
+        <translation>Не може да се прикачи към %s на този компютър. POSQ Портфейла вероятно вече е стартиран.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
+        <translation>Не намираме достатъчно Обфускационно деноминирани средства за този превод.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 POSQ.</source>
+        <translation>Не можем да намерим достатъчно Обфускационно не-деноминирани средства за този превод, които да не са равни на 10000 POSQ.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 POSQ.</source>
+        <translation>Не намираме достатъчно средства за този превод, които да не са равни на 10000 POSQ.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+        <translation>Използвайте отделен SOCKS5 прокси за да достигнете пиърите през Tor скрити услуги (по подразбиране: %s)</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Внимание: -maxtxfee е зададена твърде висока! Толкова големи такси може да се платят на единичен превод.</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Внимание: -paytxfee е зададена твърде голяма! Това е преводната такса, която ще платите ако изпратите този превод.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong POSQ Core will not work properly.</source>
+        <translation>Внимание: Проверете дали датата и часа на компютъра са верни! Ако Вашият часовник греши, POSQ Портфейла няма да работи правилно.</translation>
+    </message>
+    <message>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation>Внимание: Изглежда че мрежата не е единна! Някои миньори изпитват затруднения.</translation>
+    </message>
+    <message>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation>Внимание: Изглежда че имаме неразбирателство с някои пиъри! Може да се налага да обновите софтуера си или другите възли трябва да се ъпгрейднат.</translation>
+    </message>
+    <message>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Внимание: грешка при четене на wallet.dat! Всички ключове изглеждат добре, но преводните данни или адресната книга липсват или са некоректни.</translation>
+    </message>
+    <message>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>Внимание: увреден wallet.dat файл, данните са спасени! Оригиналния wallet.dat е запазен като wallet.[timestamp].bak в %s; ако наличността или преводите Ви изглеждат погрешни, трябва да възтановите портфейла от бекъп.</translation>
+    </message>
+    <message>
+        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
+        <translation>Пиърите от белия списък свързващи се от зададената netmask-а или IP адрес. Може да се зададе множество пъти.</translation>
+    </message>
+    <message>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation>Пиърите от Белия списък не може да са DoS забранени и техните преводи винаги ще бъдат предавани, дори и да са вече в мемпул басейна. Полезно за портал.</translation>
+    </message>
+    <message>
+        <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
+        <translation>Трябва да зададете masternodeprivkey в конфигурационния файл. Консултирайте се с документацията за повече помощ.</translation>
+    </message>
+    <message>
+        <source>(5510 could be used only on mainnet)</source>
+        <translation>(5510 може да се ползва само в mainnet)</translation>
+    </message>
+    <message>
+        <source>(default: %s)</source>
+        <translation>(по подразбиране: %s)</translation>
+    </message>
+    <message>
+        <source>(default: 1)</source>
+        <translation>(по подразбиране: 1)</translation>
+    </message>
+    <message>
+        <source>(must be 5510 for mainnet)</source>
+        <translation>(трябва да е 5510 за mainnet)</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Приемане на JSON-RPC команди и командно поле</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Приемай външни връзки (по подразбиране: 1 ако няма -proxy или -connect)</translation>
+    </message>
+    <message>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>Приемай външни REST запитвания (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Добави възел за свръзка и опитай да държиш връзката отворена</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Позволявай DNS запитвания за -addnote, -seednode и -connect</translation>
+    </message>
+    <message>
+        <source>Already have that input.</source>
+        <translation>Този въвод вече съществува.</translation>
+    </message>
+    <message>
+        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
+        <translation>Винаги извършвай запитване за пиъри посредствим DNS търсене (по подразбиране: %u)</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Опит за възтановяване на лични ключове от повреден wallet.dat файл.</translation>
+    </message>
+    <message>
+        <source>Automatically create Tor hidden service (default: %d)</source>
+        <translation>Автоматично създавай скрит Tor доставчик (по подразбиране: %d)</translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Блокирай съзидателни опции:</translation>
+    </message>
+    <message>
+        <source>Calculating missing accumulators...</source>
+        <translation>Изчислява липсващите акумулатори...</translation>
+    </message>
+    <message>
+        <source>Can't denominate: no compatible inputs left.</source>
+        <translation>Не може да деноминира: не са останали съвместими входящи.</translation>
+    </message>
+    <message>
+        <source>Can't find random Masternode.</source>
+        <translation>Не откривам случан Главен възел.</translation>
+    </message>
+    <message>
+        <source>Can't mix while sync in progress.</source>
+        <translation>Не може да се миксира по време на синхронизация.</translation>
+    </message>
+    <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Променяне софтуерната версия на портфейла към по-ниска е невъзможно.</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Не можем да разрешим -blind адрес: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Не можем да разрешим -externalip адрес: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -whitebind address: '%s'</source>
+        <translation>Не можем да разрешим -whitebind адрес: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Не можем да запишем адреса по подразбиране</translation>
+    </message>
+    <message>
+        <source>Collateral not valid.</source>
+        <translation>Гаранцията е невалидна.</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Свързвай се само към зададените възли(възел).</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>Свързвай се чрез SOCKS5 прокси</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Свържи се към възел за получаване на пиър адреси и се изключи</translation>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation>Опции за свръзка:</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Всички права запазени (c) 2009-%i Bitcoin Core разработчици</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
+        <translation>Всички права запазени (c) 2014-%i Dash Core разработчици</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2015-%i The POSQ Core Developers</source>
+        <translation>Всички права запазени (c) 2015-%i POSQ Core разработчици</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation>Засечена е повредена блок база данни</translation>
+    </message>
+    <message>
+        <source>Could not parse masternode.conf</source>
+        <translation>Не можахме да прочетем masternode.conf файла</translation>
+    </message>
+    <message>
+        <source>Debugging/Testing options:</source>
+        <translation>Дебъг/Тест опции:</translation>
+    </message>
+    <message>
+        <source>Delete blockchain folders and resync from scratch</source>
+        <translation>Изтрий блокчейн папките и ресинхронизирай от начало.</translation>
+    </message>
+    <message>
+        <source>Disable OS notifications for incoming transactions (default: %u)</source>
+        <translation>Спри съобщенията от ОС за входящи преводи (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Disable safemode, override a real safe mode event (default: %u)</source>
+        <translation>Изключи безопасен режим, отмени истинските събития от безопасния режим (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>Открий собствения IP адрес (по подразбиране: 1 когато слуша и няма -externalip)</translation>
+    </message>
+    <message>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation>Не зареждай портфейла и изключи RPC обажданията му</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Желаете ли да пресъздадете базата данни на блоковете сега?</translation>
     </message>
     <message>
         <source>Done loading</source>
@@ -4460,12 +5199,168 @@ Please be patient...</source>
         <translation>Активирай автоматично сечене на Zerocoin (0-1, По подразбиране: %u)</translation>
     </message>
     <message>
+        <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
+        <translation>Вкл. публикуването на хаш транзакцията (закл. чрез SwiftX) в &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw transaction (locked via SwiftX) in &lt;address&gt;</source>
+        <translation>Вкл. публикуването на сурова транзакция (закл. чрез SwiftX) в &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
+        <translation>Вкл. клиента да действа като влаген възел (0-1, по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Entries are full.</source>
+        <translation>Запълнени полета.</translation>
+    </message>
+    <message>
+        <source>Error connecting to Masternode.</source>
+        <translation>Грешка при свързването с Главен възел.</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation>Грешка при стартирането на блок базата данни</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation>Грешка при стартиране на средата за бази данни %s!</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation>Грешка при зареждането на блок базата данни</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Грешка в зареждането на wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Грешка в зареждането на wallet.dat: Портфейла е повреден</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet requires newer version of POSQ Core</source>
+        <translation>Грешка в зареждането на wallet.dat: Портфейла изисква по-нова версия</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation>Грешка в отварянето на блок базата данни</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Грешка в четенето от базата данни. Изключвам се!</translation>
+    </message>
+    <message>
+        <source>Error recovering public key.</source>
+        <translation>Грешка във възтановяването на публичния ключ.</translation>
+    </message>
+    <message>
         <source>Error</source>
         <translation>Грешка</translation>
     </message>
     <message>
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>Грешка: Фатална вътрешна грешка, вижте debug.log за повече подробности.</translation>
+    </message>
+    <message>
+        <source>Error: Can't select current denominated inputs</source>
+        <translation>Грешка: Така зададените деноминации не могат да бъдат избрани</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Грешка: Намаляващо Дисково пространство!</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Грешка: Намерихме неподдържан аргумент -tor, използвайте -onion.</translation>
+    </message>
+    <message>
+        <source>Error: Wallet locked, unable to create transaction!</source>
+        <translation>Грешка: Портфейла е заключен, неуспешен превод!</translation>
+    </message>
+    <message>
+        <source>Error: You already have pending entries in the Obfuscation pool</source>
+        <translation>Грешка: Вече имате изчакващи входящи в басейна за Обфускация</translation>
+    </message>
+    <message>
+        <source>Failed to calculate accumulator checkpoint</source>
+        <translation>Неуспешно изчисление на акумулаторния чекпоинт</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Неуспешно очакване на който и да е порт. За тази цел, зползвайте -listen=0.</translation>
+    </message>
+    <message>
+        <source>Failed to read block</source>
+        <translation>Неуспешно четене на блок</translation>
+    </message>
+    <message>
+        <source>Fee (in POSQ/kB) to add to transactions you send (default: %s)</source>
+        <translation>Такса (в POSQ/kB), която да се добави към изходящи преводи (по подразбиране: %s)</translation>
+    </message>
+    <message>
+        <source>Finalizing transaction.</source>
+        <translation>Приключване на превода.</translation>
+    </message>
+    <message>
+        <source>Force safe mode (default: %u)</source>
+        <translation>Предизвикай безопасен режим (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Found enough users, signing ( waiting %s )</source>
+        <translation>Имаме достатъчно потребители, подписване ( изчаква %s )</translation>
+    </message>
+    <message>
+        <source>Found enough users, signing ...</source>
+        <translation>Имаме достатучно потребители, подписване ...</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: %u)</source>
+        <translation>Генерирай монети (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
+        <translation>Колко блока да провери при стартиране (по подразбиране: %u, 0 = all)</translation>
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>Ако &lt;category&gt; не е зададен, изкарай цялата дебъг информация.</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>Импортиране...</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Импортира блокове от външен blk000??.dat файл.</translation>
+    </message>
+    <message>
+        <source>Include IP addresses in debug output (default: %u)</source>
+        <translation>Включи и IP адресите при дебъг (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Incompatible mode.</source>
+        <translation>Несъвместим режим.</translation>
+    </message>
+    <message>
+        <source>Incompatible version.</source>
+        <translation>Несъвместима версия.</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>Няма намерен генезис блок или намерения е несъвместим. Грешен datadlr за мрежата?</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Информация</translation>
+    </message>
+    <message>
+        <source>Initialization sanity check failed. POSQ Core is shutting down.</source>
+        <translation>Стартирането на проверка на здравословното състояние на портфейла се провали. Изключваме Портфейла.</translation>
+    </message>
+    <message>
+        <source>Input is not valid.</source>
+        <translation>Зададените стойности са невалидни.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -4476,12 +5371,336 @@ Please be patient...</source>
         <translation>Недостатъчни средства.</translation>
     </message>
     <message>
+        <source>Invalid -onion address or hostname: '%s'</source>
+        <translation>Невалиден -onion адрес или име: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Невалидна стойност за -maxtxfee=&lt;amount&gt;:'%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Невалидна стойност за -minrelaytxfee=&lt;amount&gt;:'%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Невалидна стойност за -mintxfee=&lt;amount&gt;:'%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
+        <translation>Невалидна стойност за -paytxfe=&lt;amount&gt;:'%s' (трябва да бъде поне %s)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Невалидна стойност за -paytxfee=&lt;amount&gt;:'%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
+        <translation>Невалидна стойност за -reservebalance=&lt;amount&gt;</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Невалидна стойност</translation>
+    </message>
+    <message>
+        <source>Invalid masternodeprivkey. Please see documenation.</source>
+        <translation>Невалиден masternodeprivkey. Моля консултирайте се с документацията.</translation>
+    </message>
+    <message>
+        <source>Invalid netmask specified in -whitelist: '%s'</source>
+        <translation>Невалидна netmask зададена в -whitelist: :'%s'</translation>
+    </message>
+    <message>
+        <source>Invalid port detected in masternode.conf</source>
+        <translation>Невалиден порт, засечен в masternode.conf</translation>
+    </message>
+    <message>
         <source>Invalid private key.</source>
         <translation>Грешен личен ключ.</translation>
     </message>
     <message>
+        <source>Invalid script detected.</source>
+        <translation>Невалиден скрипт, засечен.</translation>
+    </message>
+    <message>
+        <source>Percentage of automatically minted Zerocoin  (1-100, default: %u)</source>
+        <translation>Процент автоматично емитирани Zerocoin (1-100, по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Reindex the POSQ and zPOSQ money supply statistics</source>
+        <translation>Индексирай наново POSQ и zPOSQ данните по наличности</translation>
+    </message>
+    <message>
+        <source>Reindexing zerocoin database...</source>
+        <translation>Редексиране на база данни за нуроиди ...</translation>
+    </message>
+    <message>
+        <source>Reindexing zerocoin failed</source>
+        <translation>Повторното индексиране на зероцена се провали</translation>
+    </message>
+    <message>
+        <source>Selected coins value is less than payment target</source>
+        <translation>Избраната стойност на монетите е по-малка от целта за плащане</translation>
+    </message>
+    <message>
+        <source>SwiftX options:</source>
+        <translation>SwiftX опции:</translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
+        <translation>Това е тестов софтуер - използвай на своя глава - да не се използва за стейкване или търговско приложение.</translation>
+    </message>
+    <message>
+        <source> mints deleted
+</source>
+        <translation>изтрити емисии
+</translation>
+    </message>
+    <message>
+        <source> mints updated, </source>
+        <translation>обновени емисии,</translation>
+    </message>
+    <message>
+        <source> unconfirmed transactions removed
+</source>
+        <translation>премахнати непотвърдени транзакции
+</translation>
+    </message>
+    <message>
+        <source>Disable all POSQ specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключи POSQ специфичната функционалност (Главни възли, Zerocoin, SwiftX, Бюджетиране) (0-1, po podrazbirane: %u)</translation>
+    </message>
+    <message>
+        <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
+        <translation>Включи SwiftTX, показвай потвърждения за заключени преводи (bool, default: %s)</translation>
+    </message>
+    <message>
+        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Превода бе отказан! Това може да се случи ако част от монетите в портфейла вече са биле изпратени, като например ако сте използвали копие на wallet.dat файла и монетите са биле похарчени там, но не са  биле маркирани като изпратени тук.</translation>
+    </message>
+    <message>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
+        <translation>Грешка: Този превод изисква преводна такса от поне %s поради неговите размер, сложност или употребата на наскоро получени средства.</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
+        <translation>Грешка: Неподдържан аргумент -checklevel. Checklevel трябва да е поне 4.</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes and its size is over (%s in cmd is replaced by block hash, %d with the block size)</source>
+        <translation>Командата влиза в сила, когато най-добрия блок се промени и неговия размер е над (%s в cmd се промени с хаш на блока, %d с размер на блока)</translation>
+    </message>
+    <message>
+        <source>Failed to find coin set amongst held coins with less than maxNumber of Spends</source>
+        <translation>Не успяхме да намерим монетата сред държаните монети с по-малък номер от maxNumber на Плащанията.</translation>
+    </message>
+    <message>
+        <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
+        <translation>В редки случаи, плащане от 7 монети надхвърля максимално разрешения размер на транзакция. Моля опитайте да похарчете 6 или по-малко монети за това плащане.</translation>
+    </message>
+    <message>
         <source>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</source>
         <translation>Предпочитани деноминации за автоматично изсечените Zerocoin (1/5/10/50/100/500/1000/5000), 0 за каквито и да е. (По подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Specify custom backup path to add a copy of any automatic zPOSQ backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Посочете персонализиран път за архивиране, за да добавите копие на всяко автоматично архивиране zPOSQ. Ако е зададено като реж., Всеки архив генерира файл с времева маркировка. Ако е зададен като файл, ще пренапише към този файл всеки архив. Ако е зададено и резервно копие, ще се случат 4 архиви</translation>
+    </message>
+    <message>
+        <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
+        <translation>Посочете персонализиран път за архивиране, за да добавите копие на всяко резервно копие на портфейла. Ако е зададено като реж., Всеки архив генерира файл с времева маркировка. Ако е зададен като файл, ще пренапише към този файл всеки архив.</translation>
+    </message>
+    <message>
+        <source>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+        <translation>SwiftTX изисква входящи преводи с поне 6 потвърждения. Може да се наложи да изчакате още преди да опитате отново.</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; може да е:</translation>
+    </message>
+    <message>
+        <source>Attempt to force blockchain corruption recovery</source>
+        <translation>Опитай да наложиш възтановяване на увереден блокчейн</translation>
+    </message>
+    <message>
+        <source>CoinSpend: Accumulator witness does not verify</source>
+        <translation>МонетноПлащане: Акумулаторния свидетел не потвърждава</translation>
+    </message>
+    <message>
+        <source>Display the stake modifier calculations in the debug.log file.</source>
+        <translation>Покажи изчисленията на променливия съхранител в debug.log файла.</translation>
+    </message>
+    <message>
+        <source>Display verbose coin stake messages in the debug.log file.</source>
+        <translation>Покажи многословните съобщения от съхранение на монети в debug.log файла.</translation>
+    </message>
+    <message>
+        <source>Enable publish hash block in &lt;address&gt;</source>
+        <translation>Вкл. публикуването на хаш блока в &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish hash transaction in &lt;address&gt;</source>
+        <translation>Вкл. публикуването на хаш транзакцията в &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw block in &lt;address&gt;</source>
+        <translation>Вкл. публикуването на сурови блокове в &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw transaction in &lt;address&gt;</source>
+        <translation>Вкл. публикуването на сурови транзакции в &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable staking functionality (0-1, default: %u)</source>
+        <translation>Включи функционалността по сърханение (0-1, по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>Грешка: Фатална вътрешна грешка, вижте debug.log за повече подробности.</translation>
+    </message>
+    <message>
+        <source>Error: No valid utxo!</source>
+        <translation>Грешка: Няма валиден utxo!</translation>
+    </message>
+    <message>
+        <source>Failed to create mint</source>
+        <translation>Неуспешно емитиране</translation>
+    </message>
+    <message>
+        <source>Failed to find Zerocoins in wallet.dat</source>
+        <translation>Няма намерени Zerocoin монети в wallet.dat файла</translation>
+    </message>
+    <message>
+        <source>Failed to select a zerocoin</source>
+        <translation>Неуспешен избор на Zerocoin</translation>
+    </message>
+    <message>
+        <source>Failed to wipe zerocoinDB</source>
+        <translation>Изтриването на zerocoinDB не бе успешно</translation>
+    </message>
+    <message>
+        <source>Failed to write coin serial number into wallet</source>
+        <translation>Неуспешно записване на серийния номер на монетата в портфейла</translation>
+    </message>
+    <message>
+        <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
+        <translation>Пази най-много &lt;n&gt; несвързани превода в паметта (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Last Obfuscation was too recent.</source>
+        <translation>Последната обфускация бе твърде скоро.</translation>
+    </message>
+    <message>
+        <source>Last successful Obfuscation action was too recent.</source>
+        <translation>Последното действие по Обфускация е било твърде скоро.</translation>
+    </message>
+    <message>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
+        <translation>Ограничи размера на подписния кеш до &lt;n&gt; задания (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Line: %d</source>
+        <translation>Ред: %d</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Следи за JSON-RPC връзки на &lt;port&gt; (по подразбиране: %u или testnet: %u)</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Следи за свръзки на &lt;port&gt; (по подразбиране: %u или testnet: %u)</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Зареждане на адреси...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Зареждане блок индекса...</translation>
+    </message>
+    <message>
+        <source>Loading budget cache...</source>
+        <translation>Зареждане на бюджетния кеш...</translation>
+    </message>
+    <message>
+        <source>Loading masternode cache...</source>
+        <translation>Зареждане на кеша от главни възли...</translation>
+    </message>
+    <message>
+        <source>Loading masternode payment cache...</source>
+        <translation>Зареждане кеша на плащания от главни възли...</translation>
+    </message>
+    <message>
+        <source>Loading sporks...</source>
+        <translation>Зареждане на вилицо-лъжици...</translation>
+    </message>
+    <message>
+        <source>Loading wallet... (%3.2f %%)</source>
+        <translation>Зареждане на портфейла... (%3.2f %%)</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Зареждане на портфейла...</translation>
+    </message>
+    <message>
+        <source>Location of the auth cookie (default: data dir)</source>
+        <translation>Местоположение на оторизационната бисквитка (по подразбиране: data dir)</translation>
+    </message>
+    <message>
+        <source>Lock is already in place.</source>
+        <translation>Вече е заключен.</translation>
+    </message>
+    <message>
+        <source>Lock masternodes from masternode configuration file (default: %u)</source>
+        <translation>Заключи главен възел от конфигурационния файл (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
+        <translation>Lookup(): Невалиден -proxy адрес или име: '%s'</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>Пази най-много &lt;n&gt; връзки към пиъри (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Masternode options:</source>
+        <translation>Опции за Главни възли</translation>
+    </message>
+    <message>
+        <source>Masternode queue is full.</source>
+        <translation>Опашката за Главни възли е пълна.</translation>
+    </message>
+    <message>
+        <source>Masternode:</source>
+        <translation>Главен Възел:</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Максимум буфер за Получаване, за връзка, &lt;n&gt;*1000 байта (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Максимум буфер за Изпращане, за връзка, &lt;n&gt;*1000 байта (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Mint did not make it into blockchain</source>
+        <translation>Емисията не успя да се включи в блокчейна</translation>
+    </message>
+    <message>
+        <source>Missing input transaction information.</source>
+        <translation>Липсваща вх. информация за превода.</translation>
+    </message>
+    <message>
+        <source>Mixing in progress...</source>
+        <translation>В момента тече смесване...</translation>
+    </message>
+    <message>
+        <source>Need address because change is not exact</source>
+        <translation>Необходим е адрес, понеже рестото не е кръгла сума</translation>
+    </message>
+    <message>
+        <source>Need to specify a port with -whitebind: '%s'</source>
+        <translation>Нужно е да се зададе порт с -whitebind: '%s'</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
@@ -4492,12 +5711,144 @@ Please be patient...</source>
         <translation>Не е намерен съвместим Мастърноуд.</translation>
     </message>
     <message>
-        <source>Percentage of automatically minted Zerocoin  (10-100, default: %u)</source>
-        <translation>Процент автоматично изсечени Zerocoin (10-100, по подразбиране: %u)</translation>
+        <source>No funds detected in need of denominating.</source>
+        <translation>Не засякохме средства, които да имат нужда от деноминация.</translation>
     </message>
     <message>
-        <source>Server private key (default: %s)</source>
-        <translation>Сървърен личен ключ (default: %s)</translation>
+        <source>No matching denominations found for mixing.</source>
+        <translation>Не намерихме съвпадащи деноминации за смесване.</translation>
+    </message>
+    <message>
+        <source>Node relay options:</source>
+        <translation>Опции на възел релето:</translation>
+    </message>
+    <message>
+        <source>Non-standard public key detected.</source>
+        <translation>Засякохме нестандартен публичен ключ.</translation>
+    </message>
+    <message>
+        <source>Not compatible with existing transactions.</source>
+        <translation>Несъвместимост със съществуващите преводи.</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>Недостатъчно налични файл описания.</translation>
+    </message>
+    <message>
+        <source>Not in the Masternode list.</source>
+        <translation>Не е в списъка с Главни възли.</translation>
+    </message>
+    <message>
+        <source>Number of automatic wallet backups (default: 10)</source>
+        <translation>Брой автоматични портфейлни копия (по подразбиране: 10)</translation>
+    </message>
+    <message>
+        <source>Number of custom location backups to retain (default: %d)</source>
+        <translation>Брой запазени резервни копия за местоположението (по подразбиране: %d)</translation>
+    </message>
+    <message>
+        <source>Obfuscation is idle.</source>
+        <translation>Обфускацията е в режим на изчакване.</translation>
+    </message>
+    <message>
+        <source>Obfuscation request complete:</source>
+        <translation>Обфускацията приключи.</translation>
+    </message>
+    <message>
+        <source>Obfuscation request incomplete:</source>
+        <translation>Обфускацията не успя да приключи.</translation>
+    </message>
+    <message>
+        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
+        <translation>Приемай само блокчейн със съвпадащи чекпоинтове (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
+        <translation>Свързвай се само с възли от мрежа &lt;net&gt;(ipv4, ipv6 или onion)</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Опции:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Парола за JSON-RPC връзките</translation>
+    </message>
+    <message>
+        <source>isValid(): Invalid -proxy address or hostname: '%s'</source>
+        <translation>isValid(): Невалиден -proxy адрес или име: '%s'</translation>
+    </message>
+    <message>
+        <source>Preparing for resync...</source>
+        <translation>Подготвя се за ре-синх...</translation>
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: %u)</source>
+        <translation>Добави дата и час в дебъг логовете (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Print version and exit</source>
+        <translation>Принтирай и излез</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>Опции за RPC сървъра:</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>На случаен принцип изпускай 1 от всяко &lt;n&gt; мрежови съобщения</translation>
+    </message>
+    <message>
+        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
+        <translation>На случаен принцип отбележи 1 от всяко &lt;n&gt; мрежови съобщения</translation>
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Изгради на ново блокчейн индекса от сегашните blk000??.dat файлове</translation>
+    </message>
+    <message>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation>Получавай и показвай P2P мрежови съобщения (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Reindex the accumulator database</source>
+        <translation>Индексирай на ново акмулаторната база данни</translation>
+    </message>
+    <message>
+        <source>Relay and mine data carrier transactions (default: %u)</source>
+        <translation>Препращай и копай преводите по пренос на данни  (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>Препращай не-P2SH мултиподпис (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Сканирай блокчейна за липсващи портфейлни транзакции</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Сканиране наново...</translation>
+    </message>
+    <message>
+        <source>ResetMintZerocoin finished: </source>
+        <translation>ResetMintZeroinc завърши:</translation>
+    </message>
+    <message>
+        <source>ResetSpentZerocoin finished: </source>
+        <translation>ResetSpentZerocoin завърши:</translation>
+    </message>
+    <message>
+        <source>Run a thread to flush wallet periodically (default: %u)</source>
+        <translation>Периодично изчиствай портфейла (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Върши го на заден план като невидим процес и приемай командите</translation>
+    </message>
+    <message>
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>Ако е възможно, изпращай транзакциите като нулево-таксуван превод (по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Session not complete!</source>
@@ -4508,16 +5859,376 @@ Please be patient...</source>
         <translation>Времето на сесията изтече.</translation>
     </message>
     <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation>Задай размера на кеша за базите данни в мегабайти (%d до %d, по подразбиране: %d)</translation>
+    </message>
+    <message>
+        <source>Set external address:port to get to this masternode (example: %s)</source>
+        <translation>Задай външен адрес:порт за да достигнете този главен възел (например: %s)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>Задай размер на басейна за ключове да бъде &lt;n&gt;(по подразбиране: %u) </translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>Максимален разбимер на блока в байтове (default: %d)</translation>
+    </message>
+    <message>
+        <source>Set minimum block size in bytes (default: %u)</source>
+        <translation>Минимален размер на блока в байтове (default: %u)</translation>
+    </message>
+    <message>
+        <source>Set the Maximum reorg depth (default: %u)</source>
+        <translation>Максимална дълбочина на reorg (default: %u)</translation>
+    </message>
+    <message>
+        <source>Set the masternode private key</source>
+        <translation>Задай тайния ключ на Главния възел</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>Задай броя нишки да обслужват RPC запитвания (по подразбиране: %d)</translation>
+    </message>
+    <message>
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
+        <translation>Задай DB_PRIVATE флаг в средата на портфейловата база данни (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>Покажи всички дебъг възможности (иползвай: -help -help-debug)</translation>
+    </message>
+    <message>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>Намали debug.log файла при стартиране на портфейла (по подразбиране: 1 когато няма -debug)</translation>
+    </message>
+    <message>
+        <source>Signing failed.</source>
+        <translation>Неуспешено подписване.</translation>
+    </message>
+    <message>
+        <source>Signing timed out.</source>
+        <translation>Времето за посписване изтече.</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation>Неуспешено подписване на превода.</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Задай конфигурационен файл (default: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Задай максимално време на чакане в милисекунди (минимум: 1, по подразбиране: %d)</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Задай възтановяване на данни</translation>
+    </message>
+    <message>
+        <source>Specify masternode configuration file (default: %s)</source>
+        <translation>Задай конфигурационен файл за Главен възел (default: %s)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Задай pid файл (default: %s)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Задай файл на портфейла (в папката с данни)</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Задай свой собствен публичен адрес</translation>
+    </message>
+    <message>
+        <source>Spend Valid</source>
+        <translation>Валидно Плащане</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
+        <translation>Похарчи непотвърдено ресто когато пращаш преводи (default: %u)</translation>
+    </message>
+    <message>
+        <source>Staking options:</source>
+        <translation>Опции за съхранение:</translation>
+    </message>
+    <message>
+        <source>Stop running after importing blocks from disk (default: %u)</source>
+        <translation>Изключи се след импортирането на блоквоете от диска (default: %u)</translation>
+    </message>
+    <message>
+        <source>Submitted following entries to masternode: %u / %d</source>
+        <translation>Следните са изпратени до главния възел: %u / %d</translation>
+    </message>
+    <message>
+        <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
+        <translation>Изпратени до главния възел, чакаме още ( %u %d ) %s</translation>
+    </message>
+    <message>
+        <source>Submitted to masternode, waiting in queue %s</source>
+        <translation>Изпратено до главния възел, чака си реда %s</translation>
+    </message>
+    <message>
+        <source>Synchronization failed</source>
+        <translation>Неуспешна синхронизация</translation>
+    </message>
+    <message>
+        <source>Synchronization finished</source>
+        <translation>Успешно синхронизиране</translation>
+    </message>
+    <message>
+        <source>Synchronization pending...</source>
+        <translation>Синхронизацията изчаква...</translation>
+    </message>
+    <message>
+        <source>Synchronizing budgets...</source>
+        <translation>Синхронизиране на бюджетите...</translation>
+    </message>
+    <message>
+        <source>Synchronizing masternode winners...</source>
+        <translation>Синхронизиране печелившите Главни възли...</translation>
+    </message>
+    <message>
+        <source>Synchronizing masternodes...</source>
+        <translation>Синхронизиране с Главните възли...</translation>
+    </message>
+    <message>
+        <source>Synchronizing sporks...</source>
+        <translation>Синхронизиране на вилицо-лъжиците...</translation>
+    </message>
+    <message>
+        <source>Syncing zPOSQ wallet...</source>
+        <translation>Синхронизиране на zPOSQ портфейла ...</translation>
+    </message>
+    <message>
+        <source>The coin spend has been used</source>
+        <translation>Монетното плащане е използвано</translation>
+    </message>
+    <message>
+        <source>The transaction did not verify</source>
+        <translation>Превода не бе потвърден</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Това съобщение</translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation>Това е експериментален софтуер</translation>
+    </message>
+    <message>
+        <source>This is intended for regression testing tools and app development.</source>
+        <translation>Това е за регресионен тест и софтуерна разработка.</translation>
+    </message>
+    <message>
+        <source>This is not a Masternode.</source>
+        <translation>Това не е Главен Възел.</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+        <translation>Праг за разкачване на пиъри с лошо поведение (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Too many spends needed</source>
+        <translation>Нужни са твърде много плащания</translation>
+    </message>
+    <message>
+        <source>Tor control port password (default: empty)</source>
+        <translation>Парола за контрол на Tor порт: (по подразбиране: празно)</translation>
+    </message>
+    <message>
+        <source>Tor control port to use if onion listening enabled (default: %s)</source>
+        <translation>Порт за контрол на Tor ако onion е включен (по подразбиране: %s)</translation>
+    </message>
+    <message>
+        <source>Transaction Created</source>
+        <translation>Превода е създаден</translation>
+    </message>
+    <message>
+        <source>Transaction Mint Started</source>
+        <translation>Емитиране по Превода Стартира</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>Преводната сума е твърде малка</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must be positive</source>
+        <translation>Преводните суми трябва да са положително число</translation>
+    </message>
+    <message>
+        <source>Transaction created successfully.</source>
+        <translation>Превода е създаден успешно</translation>
+    </message>
+    <message>
+        <source>Transaction fees are too high.</source>
+        <translation>Преводните таски са твърде високи.</translation>
+    </message>
+    <message>
+        <source>Transaction not valid.</source>
+        <translation>Превода е невалиден.</translation>
+    </message>
+    <message>
+        <source>Transaction too large for fee policy</source>
+        <translation>Твърде голям превод за таксионната политика</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation>Твърде голям превод</translation>
+    </message>
+    <message>
+        <source>Transmitting final transaction.</source>
+        <translation>Изпращане на последния превод.</translation>
+    </message>
+    <message>
+        <source>Try to spend with a higher security level to include more coins</source>
+        <translation>Опитайте да платите с по-високо ниво на сигурност, за да включите повече монети.</translation>
+    </message>
+    <message>
+        <source>Trying to spend an already spent serial #, try again.</source>
+        <translation>Опитвате се да похарчите, вече похарчен сериен номер. Опитайте отново.</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>Не можем да прикачим %s към този компютър (прикачването даде грешка %s)</translation>
+    </message>
+    <message>
+        <source>Unable to find transaction containing mint</source>
+        <translation>Не можем да намерим превод, който съдържа емисията</translation>
+    </message>
+    <message>
+        <source>Unable to sign spork message, wrong key?</source>
+        <translation>Не можем да подпишем съобщението по тази вилицо-лъжица, грешен ключ?</translation>
+    </message>
+    <message>
+        <source>Unable to start HTTP server. See debug log for details.</source>
+        <translation>Не можем да стартираме HTTP сървъра. Вижте дебъг логовете за повече подробности.</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Непозната мрежа е зададена в -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown state: id = %u</source>
+        <translation>Непознато състояние: id = %u</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Обновете портфейла до най-новия формат</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Използвай UPnP за да картографираш портовете за слушане (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>Използвай UPnP за да картографираш портовете за слушане (по подразбиране: 1 когато слуша)</translation>
+    </message>
+    <message>
+        <source>Use a custom max chain reorganization depth (default: %u)</source>
+        <translation>Използвай свободно зададена максимална дълбочина за реорганизация на веригата (по подразбиране: %u)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Използвайте тестова мрежа</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Потребителско име за JSON-RPC свръзките</translation>
+    </message>
+    <message>
+        <source>Value is below the smallest available denomination (= 1) of zPOSQ</source>
+        <translation>Стойността е под най-малката налична деноминация (= 1) в zPOSQ</translation>
+    </message>
+    <message>
+        <source>Value more than Obfuscation pool maximum allows.</source>
+        <translation>Стойността е по-голяма от позволената от басейна Обфускация.</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Проверява блоковете...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>Проверява портфейла...</translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>Портфейла %s е извън папката с данни %s</translation>
+    </message>
+    <message>
+        <source>Wallet is locked.</source>
+        <translation>Портфейла е заключен.</translation>
+    </message>
+    <message>
+        <source>Wallet needed to be rewritten: restart POSQ Core to complete</source>
+        <translation>Портфейла трябва да се пренапише: рестартирайте програмата за завършване на процеса</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Опции на Портфейла:</translation>
+    </message>
+    <message>
+        <source>Wallet window title</source>
+        <translation>Име на прозореца на портфейла</translation>
+    </message>
+    <message>
         <source>Warning</source>
         <translation>Внимание</translation>
+    </message>
+    <message>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Внимание: Тази версия е стара, нужен е ъпгрейд!</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>Внимание: Неподдържанния аргумент -benchmark бе игнориран, използвайте -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>Внимание: Неподдържанния аргумент -debugnet бе игнориран, използвайте -debug=net.</translation>
+    </message>
+    <message>
+        <source>Will retry...</source>
+        <translation>Ще опита...</translation>
+    </message>
+    <message>
+        <source>You don't have enough Zerocoins in your wallet</source>
+        <translation>Нямате достатъчно Zerocoin в портфейла си</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>Трябва да построите базата данни наново, използвайки -reindex вместо -txindex</translation>
+    </message>
+    <message>
+        <source>Your entries added successfully.</source>
+        <translation>Въведени успешно.</translation>
+    </message>
+    <message>
+        <source>Your transaction was accepted into the pool!</source>
+        <translation>Превода е приет в басейна!</translation>
+    </message>
+    <message>
+        <source>Zapping all transactions from wallet...</source>
+        <translation>Затриване на всички преводи от портфейла...</translation>
+    </message>
+    <message>
+        <source>ZeroMQ notification options:</source>
+        <translation>Опции за ZeroMQ известяване:</translation>
     </message>
     <message>
         <source>Zerocoin options:</source>
         <translation>Zerocoin опции</translation>
     </message>
     <message>
-        <source>failed to validate zerocoin</source>
-        <translation>провал при валидирането на Zerocoin</translation>
+        <source>on startup</source>
+        <translation>при стартиране</translation>
     </message>
-    </context>
+    <message>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>wallet.dat е повреден, неуспешно спасяване</translation>
+    </message>
+</context>
 </TS>
