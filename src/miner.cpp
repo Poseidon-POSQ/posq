@@ -110,10 +110,8 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
 
     // Make sure to create the correct block version after zerocoin is enabled
     bool fZerocoinActive = chainActive.Height() + 1 >= Params().Zerocoin_StartHeight();
-    if (fZerocoinActive)
-        pblock->nVersion = 4;
-    else
-        pblock->nVersion = 3;
+    // Supports CLTV activation
+    pblock->nVersion = 6;
 
     // Create coinbase tx
     CMutableTransaction txNew;
